@@ -12,6 +12,7 @@ function app() {
   if (document.body !== null) {
     document.body.appendChild(root_div)
   }
+  
 
 
   ReactDOM.render(
