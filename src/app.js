@@ -17,10 +17,20 @@ function app() {
 
   ReactDOM.render(
     <div>
-      <h4>Sigle</h4>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque necessitatibus, sapiente fugiat quaerat inventore aliquam est, incidunt, minus in veniam vitae tempora facere iste molestias velit dolor voluptates dignissimos voluptatibus.
-      </p>
+      <h1> Bonjour </h1>
+      <pre> taper le sigle 
+            s'il vous plaît </pre>
+      <form>
+      <label>
+      entrez le sigle recherché:
+      <input type="text" name="sigle"/>
+      </label>
+      <br/>
+      <input class="button" type="submit" value="envoyer"/>
+      {/*<br/>
+      <input type="file" value="entrez votre fichier"/>*/}
+      </form>
+
     </div>
     ,
     root_div
