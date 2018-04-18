@@ -26,7 +26,7 @@ function app() {
       <input type="text" name="sigle"/>
       </label>
       <br/>
-      <input class="button" type="submit" value="envoyer"/>
+      <input className="button" type="submit" value="envoyer"/>
       {/*<br/>
       <input type="file" value="entrez votre fichier"/>*/}
       </form>
