@@ -1,5 +1,6 @@
 import React from 'react'
 import Def from "./Def"
+import Clock from "./Clock"
 
 class Menu extends React.Component {
   constructor(props) {
@@ -13,7 +14,8 @@ class Menu extends React.Component {
         switch (this.state.value){
           case 1: return(<Def />);
 
-          case 2: return(<Clock />)
+          case 2: return(<Clock />);
+
           default:
 
                   return(
@@ -21,7 +23,7 @@ class Menu extends React.Component {
                     
                      <button onClick={() => this.setState({value: 1})} >  Petite définition </button>
                      <br />
-                     <button onClick={() => this.setState({value: 2})}>  Voir l'heure </button>
+                     <button onClick={() => this.setState({value: 2})} >  Voir l'heure </button>
                      <br />
                      <button>  Autre </button>
                      <br />
