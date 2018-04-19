@@ -2,6 +2,7 @@ body{
 	background-image: url("arbre.png");
 	background-repeat: no-repeat;
 	background-position: right top;
+	background-size: 70%;
 }
 .button{
 	background-color: #B0E0E6;
@@ -9,4 +10,18 @@ body{
 	color: black;
 	padding: 10px 32px;
 	text-align: center;
+}
+
+.Menudiv{
+		border: 4px dotted blue;
+		background-color: 	#FFA500;
+	
+}
+
+button{
+		background-color: #B0E0E6;
+		border: 4px dotted red;
+		color: black;
+		padding: 10px 32px;
+		text-align: center;
 }
