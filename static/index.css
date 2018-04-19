@@ -5,23 +5,26 @@ body{
 	background-size: 70%;
 }
 .button{
-	background-color: #B0E0E6;
+	background:url("pomme.png") no-repeat;
+	background-size: 60%;
+	padding:70px 70px;
 	border: none;
-	color: black;
+	color: white;
 	padding: 10px 32px;
 	text-align: center;
 }
 
-.Menudiv{
-		border: 4px dotted blue;
-		background-color: 	#FFA500;
-	
+.Menudiv {
+    width: fit-content;
+    border: 4px solid #4bff004d;
+    background-color: #5cd61142;
+    background-size: 50%;
 }
 
-button{
+.Menudiv.button{
 		background-color: #B0E0E6;
-		border: 4px dotted red;
-		color: black;
-		padding: 10px 32px;
-		text-align: center;
+	    border: 1px solid lightskyblue;
+	    color: blue;
+	    padding: 10px 32px;
+	    text-align: center;
 }
