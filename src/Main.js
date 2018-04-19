@@ -9,16 +9,17 @@ class Main extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      value: false
+      value: false,
+      text:''
     };
   }
   renderMain(){
   	if (!(this.state.value)){
-	  				return(<Init onClick={() => this.setState({value: true})}/>);
+	  				return(<Init onChange={(e)=> this.setState({text:e})}onClick={() => this.setState({value: true})}/>);
 	  			
 	  			}else{
 
-	  				return(<Menu />);
+	  				return(<Menu value={this.state.text} />);
 	  			}
 
   }
