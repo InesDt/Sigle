@@ -12,7 +12,7 @@ class Init extends React.Component {
 			    <form >
 			    <input type="text" placeholder="entrez votre sigle" name="sigle"/>
 			    <br/>
-			    <input className="button" type="submit" value="envoyer" onClick={() => this.props.onClick()} />
+			    <button className="button" type="submit" value="envoyer" onClick={() => this.props.onClick()}> </button>
 			    </form>
 			    </div>
 			);

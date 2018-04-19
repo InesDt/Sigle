@@ -1,6 +1,7 @@
 import React from 'react'
 import Def from "./Def"
 import Clock from "./Clock"
+import Square from "./Square"
 
 class Menu extends React.Component {
   constructor(props) {
@@ -16,6 +17,8 @@ class Menu extends React.Component {
 
           case 2: return(<Clock />);
 
+          case 3: return(<Square />);
+
           default:
 
                   return(
@@ -25,7 +28,7 @@ class Menu extends React.Component {
                      <br />
                      <button onClick={() => this.setState({value: 2})} >  Voir heure</button>
                      <br />
-                     <button>  hey </button>
+                     <button onClick={() => this.setState({value: 3})} >  petit bouton </button>
                      <br />
                      <button>  Autre </button>
                       <br />
