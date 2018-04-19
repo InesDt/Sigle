@@ -23,9 +23,9 @@ class Menu extends React.Component {
                     
                      <button onClick={() => this.setState({value: 1})} >  Petite définition </button>
                      <br />
-                     <button onClick={() => this.setState({value: 2})} >  Voir l'heure </button>
+                     <button onClick={() => this.setState({value: 2})} >  Voir heure</button>
                      <br />
-                     <button>  Autre </button>
+                     <button>  hey </button>
                      <br />
                      <button>  Autre </button>
                       <br />
