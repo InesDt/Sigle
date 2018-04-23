@@ -1,21 +1,10 @@
 body{
 	background-image: url("arbre.png");
 	background-repeat: no-repeat;
-	background-position: right top;
-	background-size: 70%;
+	background-position: 100% 0%;
+	background-size: 60%;
 }
-.button{
-		background-position:center;
-		background-color:#ffffff00;
-		background-image:url("pomme.png");
-		background-size:60%;
-		background-repeat:no-repeat;
-		cursor:pointer;
-	    border: none;
-	    color: white;
-	    padding: 50px 40px;
-	    text-align: justify;
-}
+
 }
 
 .Menudiv {
@@ -27,11 +16,25 @@ button{
 		background-position:center;
 		background-color:#ffffff00;
 		background-image:url("pomme.png");
-		background-size:60%;
+		background-size:65%;
 		background-repeat:no-repeat;
 		cursor:pointer;
 	    border: none;
 	    color: white;
-	    padding: 50px 40px;
+	    padding: 60px 40px;
+	    text-align: justify;
+}
+
+
+.Retour{
+		background-position:center;
+		background-color:#ffffff00;
+		background-image:url("poire.png");
+		background-size:65%;
+		background-repeat:no-repeat;
+		cursor:pointer;
+	    border: none;
+	    color: white;
+	    padding: 60px 40px;
 	    text-align: justify;
 }
