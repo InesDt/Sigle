@@ -1,23 +1,37 @@
-import React from "react";
 
-import Def from "./Def"
+import React from 'react'
 
-class Init extends React.Component {
+import Found from "./Found"
+import Menu from "./Menu"
 
-	render(){
-		return (
-				<div>
-			  	<h1> Bonjour </h1>
-			    <h2> taper le sigle <br/> s'il vous plaît </h2>
-			    <form >
-			    <input type="text" placeholder="entrez votre sigle" name="sigle" onChange={(e)=> this.props.onChange(e)}/>
-			    <br/>
-			    <button className="button" type="submit" value="envoyer" onClick={() => this.props.onClick()}> </button>
-			    </form>
-			    </div>
-			);
-	}
+class  Init extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      value: false,
+      text:''
+    };
+  }
+  renderInit(){
+  	if (!(this.state.value)){
+	  				return(<Found onChange={(e)=> this.setState({text:e.target.value})} onClick={(e) => {(e=="Retour")? (this.props.onClick()) : (this.setState({value: true})) } }/>);
+	  			
+	  			}else{
 
-}
+	  				return(<Menu onClick={() => this.setState({value: false})} value={this.state.text} />);
+	  			}
+
+  }
+  render() {
+  			return(
+  				<div>
+	  			{this.renderInit()}
+ 				</div> 
+ 				)
+ 			}
+ }
+
+    
+  
 
 export default Init;

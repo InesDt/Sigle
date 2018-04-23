@@ -1,36 +1,51 @@
 import React from 'react'
 
 import Init from "./Init"
-import Menu from "./Menu"
-import Def from "./Def"
-
+import Ajout from "./Ajout"
+import Jeu from "./Jeu"
+import Retour from "./Retour"
 
 class Main extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      value: false,
-      text:''
+      value: 0
     };
   }
-  renderMain(){
-  	if (!(this.state.value)){
-	  				return(<Init onChange={(e)=> this.setState({text:e})}onClick={() => this.setState({value: true})}/>);
-	  			
-	  			}else{
 
-	  				return(<Menu value={this.state.text} />);
-	  			}
-
-  }
   render() {
-  			return(
-  				<div>
-  				<h1> Mon Main </h1>
-	  			{this.renderMain()}
- 				</div> 
- 				)
- 			}
+    
+        console.log("coucou",this.state.value);
+        switch (this.state.value){
+          case 1: return(<Init onClick={() => this.setState({value: 0})}/>);
+
+          case 2: return(<Ajout onClick={() => this.setState({value: 0})}/>);
+
+          case 3:
+                  return(<Jeu onClick={() => this.setState({value: 0})}/>);
+
+          default:
+
+                  return(
+                    <div className="Maindiv">
+                     <h1> Désigleur </h1>
+           
+                     <h2> Bienvenue <br/> Que souhaitez vous faire ? </h2> 
+                     <button onClick={() => this.setState({value: 1})} >  Rechercher un sigle </button>
+                     <br />
+                     <button onClick={() => this.setState({value: 2})} >  Ajout d'un sigle </button>
+                     <br />
+                     <button onClick={() => this.setState({value: 3})} >  Petit jeu d'intuition </button>
+                    </div>
+                    );
+          
+
+            
+          }
+
+        
+
+      }
  }
 
     

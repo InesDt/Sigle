@@ -1,25 +1,20 @@
 import React from "react";
 
-
-import ReactDOM from 'react-dom'
+import Retour from "./Retour"
 
 class Def extends React.Component {
-	constructor(props){
-		super(props);
-		this.state = {
-			value: null
-		}
-	}
-   
-	renderDef(){
 
-			return (<p> une petite Définition</p>);
+	renderDef(){
+			var definitions=[['contexte1','def1'],['contexte2','def2'] ];
+			return (<div>{definitions.map(([a,b]) => (<p key={[a,b].toString()} > {a} <br />
+											  {b} </p>))} </div>);
 	}
 	render(){
 		return (
-				<div id="Def" className="def">
-					<h1> Bonjour </h1>
-					<p> Voici la petite définition </p>
+				<div className="Def">
+					<h2>  {this.props.value} signifie: </h2>
+					{this.renderDef()}
+					<Retour onClick={()=> this.props.onClick("Retour")}/>
 					
 				</div>
 			);
