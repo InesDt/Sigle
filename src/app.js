@@ -4,28 +4,30 @@ import React from 'react'
 
 import ReactDOM from 'react-dom'
 
-//import Init from "./Init"
+import {Provider} from 'react-redux'
 
-import Clock from "./Clock"
+import {createStore} from 'redux'
 
-import Def from "./Def"
+import reducteurs from './reducteurs'
 
-import Main from "./Main"
+import Main from "./composants/Main"
 
 function app() {
-  let root_div = document.createElement('div')
-  root_div.setAttribute('id','root')
+    let root_div = document.createElement('div')
+    root_div.setAttribute('id','root')
 
-  if (document.body !== null) {
-    document.body.appendChild(root_div)
+    if (document.body !== null) {
+      document.body.appendChild(root_div)
   }
   
-
+  const store = createStore(reducteurs)
 
   ReactDOM.render(
-    <Main />
-    ,
-    root_div
+      <Provider store={store}>
+      <Main />
+      </Provider>
+      ,
+      root_div
   )
 }
 
