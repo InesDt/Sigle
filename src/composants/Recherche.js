@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom'
 import RechSigle from '../conteneurs/RechSigle'
 import AjoutSigle from '../conteneurs/AjoutSigle'
 import AjoutFilter from '../conteneurs/AjoutFilter'
-import InfosListe from '../conteneurs/InfosFilter'
+import InfosFilter from '../conteneurs/InfosFilter'
 const Recherche = ({ dispatch }) => (
 	<div>
 	    <h2> petit outil pour Sigle </h2>
