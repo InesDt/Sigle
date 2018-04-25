@@ -1,9 +1,10 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { setSigleRech} from '../actions'
+import { setSigleRech} from '../actions/app'
+import ReactDOM from 'react-dom'
 
 
-const RechSigle = ({ dispatch }) => {
+let RechSigle = ({ dispatch }) => {
 	let input
 
 	return (
@@ -13,13 +14,14 @@ const RechSigle = ({ dispatch }) => {
 						if (!input.value.trim()){
 							return
 						}
-						dispatch(setSigleRech(iput.value))
-						input.value = ''
+						dispatch(setSigleRech(input.value))
 					}}>
-			<input ref={ node => input = node} />
+			<input ref={ node => input = node } />
 			</form>
 		</div>
 		)
 }
 
-export default connect()(RechSigle)
+RechSigle = connect()(RechSigle)
+
+export default RechSigle

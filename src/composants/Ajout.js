@@ -1,24 +1,29 @@
 import React from 'react'
-//import Retour from "../conteneurs/Retour"
-import { VisibilityPage } from '../actions'
-class  Ajout extends React.Component {
- render(){
-    return (
-        <div>
-          <h2> Ajout du sigle {store.sigle}</h2>
+import RetourFiltre from "../conteneurs/RetourFiltre"
+import { VisibilityPage } from '../actions/app'
+import ReactDOM from 'react-dom'
+import PropTypes from 'prop-types'
+
+const Ajout = ({sigle}) => 
+    (
+        <div >
+          <h2> Ajout du sigle {sigle} </h2>
           <form >
-          <input type="text" placeholder="entrez la définition" name="sigle" />
+          <input type="text" placeholder="entrez la définition" />
           <br/>
           
           </form>
           <button> envoyer </button>
-          {/*<Retour Page={VisibilityPage.SHOW_INIT} />*/}
+          <RetourFiltre page={VisibilityPage.SHOW_INIT} />
           </div>
-      );
-  }
- }
-
-    
+      )
   
+ 
+
+Ajout.propTyoes = {
+  sigle : PropTypes.string.isRequired
+}
+ 
+
 
 export default Ajout;
