@@ -8,7 +8,7 @@ import {Provider} from 'react-redux'
 
 import {createStore} from 'redux'
 
-import reducteurs from './reducteurs'
+import rootReducer from './reducteurs'
 
 import Main from "./composants/Main"
 
@@ -20,7 +20,7 @@ function app() {
       document.body.appendChild(root_div)
   }
   
-  const store = createStore(reducteurs)
+  const store = createStore(rootReducer)
 
   ReactDOM.render(
       <Provider store={store}>
