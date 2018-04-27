@@ -1,22 +1,25 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { setSigleRech} from '../reducteurs/form'
-
+import {selectSigle} from '../reducteurs/app'
 const Presentation = props => 
-    {
-    	let input
-        return (<div>
-					<form onSubmit={ e => {e.preventDefault(); console.log(input.value); props.onSubmit(input.value)} } >
-					<input ref={ node => input = node } type="text" placeholder="entrez un sigle" />
+    {	
+        return (<div className="cell auto">
+					<form onSubmit={ e => {e.preventDefault()} } >
+					<input onChange= {(e) => {console.log(e.target.value); props.onChange(e.target.value) }} type="text" placeholder="entrez un sigle" value={props.sigle} />
 					</form>
 				</div>
       	)
 }
 
-const mapDispatchToProps = (dispatch) => ({
-	onSubmit: (e) => {dispatch(setSigleRech(e))}
+const mapStateToProps = (state) => ({
+	sigle: selectSigle(state)
 })
 
-const RechSigle = connect(null,mapDispatchToProps)(Presentation)
+const mapDispatchToProps = (dispatch) => ({
+	onChange: (e) => {dispatch(setSigleRech(e))}
+})
+
+const RechSigle = connect(mapStateToProps,mapDispatchToProps)(Presentation)
 
 export default RechSigle

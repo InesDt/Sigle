@@ -4,8 +4,9 @@ import React from 'react'
 
 const Presentation = props => 
     { 
-      const defs = (<div> <div> Définitions </div> {props.liste.map( p => ( (p.nom == props.sigle)? (<div key ={p.def.toString()}>{p.def} </div>) : null ) )} </div>)
-       
+      var id = 0
+      const defs = (<div className = "cell small-12"> <div> Définitions </div> {props.liste.map( p => ( (p.nom == props.sigle)? (<div key ={id++}>{p.def} </div>) : null ) )} </div>)
+      console.log(props.liste)
        return (defs)
       }
   
