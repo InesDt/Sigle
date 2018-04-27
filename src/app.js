@@ -10,17 +10,16 @@ import {createStore} from 'redux'
 
 import rootReducer from './reducteurs/app.js'
 
-import MainFilter from "./conteneurs/MainFilter"
+import Main from "./composants/Main"
 
-import AjoutFilter from './conteneurs/AjoutFilter'
-import RechSigle from './conteneurs/RechSigle'
-import Recherche from './composants/Recherche'
+import AjoutPage from "./composants/AjoutPage"
 
 import {
   setSigleRech,
   setVisibilityPage,
-  VisibilityPage
-} from './actions/app.js'
+  VisibilityPage,
+  setSigles
+} from './reducteurs/app.js'
 
 function app() {
     let root_div = document.createElement('div')
@@ -34,7 +33,7 @@ function app() {
 
   ReactDOM.render(
       <Provider store={store}>
-      <MainFilter/>
+      <Main/>
       </Provider>
       ,
       root_div
@@ -52,7 +51,7 @@ console.log(store.getState())
 const unsubscribe = store.subscribe(() =>
   console.log(store.getState()))
 // Dispatch some actions
-store.dispatch(setSigleRech('Learn about actions'))
+store.dispatch(setSigles({nom: 'autre ', def: 'autre aussi'}))
 store.dispatch(setSigleRech('bonjour'))
 store.dispatch(setSigleRech('JPP'))
 store.dispatch(setVisibilityPage(VisibilityPage.SHOW_AJOUT))

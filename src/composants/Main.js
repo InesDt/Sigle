@@ -1,23 +1,28 @@
+import { connect } from 'react-redux'
+
+import {selectPage} from '../reducteurs/app'
+
 import React from 'react'
 import Recherche from "./Recherche"
-import AjoutFilter from "../conteneurs/AjoutFilter"
-import PropTypes from 'prop-types'
-import ReactDOM from 'react-dom'
+import AjoutPage from "./AjoutPage"
 
-const Main = ({page}) => {
-   switch(page){
-              case 'SHOW_AJOUT': 
-                  return(<AjoutFilter/>)
+const Presentation = props => {
+   switch(props.page){
+              case true: 
+                  return(<AjoutPage />)
                    
               default:
+                {
                   return(<Recherche/>)
-            
+                }
               
             }
 }
-  
-Main.propTypes = {
-  page : PropTypes.string.isRequired
-}
 
-export default Main;
+
+const mapStateToProps = state => ({
+	page: selectPage(state)
+})
+
+ const Main = connect(mapStateToProps)(Presentation)
+ export default Main
