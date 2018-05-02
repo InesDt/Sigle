@@ -58,3 +58,7 @@ export const VisibilityPage = {
 	SHOW_AJOUT: 'SHOW_AJOUT'
 }
 */
+
+export const selectSigle = state => state.form.sigle
+export const selectPage = state => state.form.page
+export const selectDef = state => state.form.def

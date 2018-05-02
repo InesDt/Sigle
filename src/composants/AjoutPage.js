@@ -1,30 +1,39 @@
 import { connect } from 'react-redux'
-import { selectListe, selectSigle, selectDef} from '../reducteurs/app'
-import { setSigles } from '../reducteurs/donnees'
-import { setDefAjout } from '../reducteurs/form'
+import { setSigles, selectListe } from '../reducteurs/donnees'
+import { setDefAjout, selectSigle, selectDef  } from '../reducteurs/form'
 import React from 'react'
 import Retour from "./Retour"
 
 const Presentation = props => 
     (
-        <div className="grid-container full">
+        
             <div className="grid-x grid-padding-x">
-                <div className="cell small-12">
-                    <h2> Ajout du sigle {props.sigle} </h2>
+              <div className ="cell small-12">
+                <div className="grid-x grid-padding-x">
+                  <div className="cell small-10">
+                      <h4> Ajout du sigle {props.sigle} </h4>
+                  </div>
+                  <div className="cell auto">
+                       <Retour page={false} />
+                   </div>
                 </div>
-                <div className= "cell small-3"> </div>
-                <div className="cell small-6">
-                    <input onChange= {(e) => {console.log(e.target.value); props.onChange(e.target.value) }} type="text" placeholder="entrez la définition" value={props.def}/>
+              </div>
+              <div className ="cell small-12">
+                <div className="grid-x grid-padding-x">
+                  <div className= "cell auto"> 
+                  </div>
+                  <div className="cell small-6">
+                      <input onChange= {(e) => {console.log(e.target.value); props.onChange(e.target.value) }} type="text" placeholder="entrez la définition" value={props.def}/>
+                  </div>
+                  <div className="cell auto"> 
+                  </div>
                 </div>
-                <div className="cell small-3"> </div>
-                <div className="cell auto">
-                     <button onClick= {() => props.onClick(props.sigle,props.def)} > envoyer </button>
-                </div>
-                <div className="cell auto">
-                     <Retour page={false} />
-                </div>
+              </div>
+              <div className="cell small-2">
+                      <button onClick= {() => props.onClick(props.sigle,props.def)} > envoyer </button>
+              </div>
             </div>
-        </div>
+        
       )
   
  
@@ -41,7 +50,9 @@ const mapDispatchToProps = (dispatch) => ({
     dispatch(setDefAjout(e))
   },
 	onClick: (nom, def) => {
-    dispatch(setSigles({nom: nom, def: def}))
+    if(nom.length>0 && def.length>0){
+      dispatch(setSigles({nom: nom, def: def}))
+    }
     dispatch(setDefAjout(''))
   }
 })

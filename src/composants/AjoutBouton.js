@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import {setVisibilityPage} from '../reducteurs/form'
 
 
-const Presentation = props => ( <div className="cell small-2"><button onClick={() =>  props.onClick()} > Ajout </button></div>)
+const Presentation = props => ( <div className="cell small-2"><button onClick={() =>  props.onClick()} > + </button></div>)
 
 const mapDispatchToProps = dispatch => ({
 	onClick: () => {dispatch(setVisibilityPage(true))}

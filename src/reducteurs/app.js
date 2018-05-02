@@ -10,7 +10,5 @@ const reducteur = combineReducers({
 
 export default reducteur
 
-export const selectSigle = state => state.form.sigle
-export const selectPage = state => state.form.page
-export const selectListe = state => state.donnees.liste
-export const selectDef = state => state.form.def
+export const selectDonnees = state => state.donnees
+export const selectForm = state => state.form

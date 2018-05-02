@@ -33,7 +33,9 @@ function app() {
 
   ReactDOM.render(
       <Provider store={store}>
-      <Main/>
+        <div className="grid-container full">
+          <Main/>
+        </div>
       </Provider>
       ,
       root_div

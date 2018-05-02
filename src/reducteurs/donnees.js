@@ -8,7 +8,8 @@ const SET_SIGLES = 'SET_SIGLES'
 
 //Action creator
 export function setSigles(sigle) {
-	return {type: 'SET_SIGLES',
+	return {
+      type: 'SET_SIGLES',
 			nom: sigle.nom,
 			def: sigle.def
 		}
@@ -25,3 +26,5 @@ const donnees = (state =donnees_sigles, action) => {
  }
 
 export default donnees
+
+export const selectListe = state => state.donnees.liste

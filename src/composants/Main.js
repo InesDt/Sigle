@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 
-import {selectPage} from '../reducteurs/app'
+import {selectPage} from '../reducteurs/form'
 
 import React from 'react'
 import Recherche from "./Recherche"

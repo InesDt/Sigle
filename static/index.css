@@ -13,36 +13,48 @@ body{
 }
 
 button{
-		background-position:center;
+		/*background-position:center;
 		background-color:#ffffff00;
 		background-image:url("pomme.png");
 		background-size:65%;
 		background-repeat:no-repeat;
 		cursor:pointer;
 	    border: none;
-	    color: white;
-	    padding: 60px 40px;
-	    text-align: justify;
+	    color: #1d0909;
+	    padding: 20px 20px;
+	    text-align: justify;*/
+	margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 320px;
+  background:#fbc100;
+    padding: 1em 2.4em;
+    font-size: .9em;
+    margin: 1em;
+    color: white;
+    text-decoration: none;
+    flex-grow: 1;
+    text-align: center;
 }
 
-
-.Retour{
-		background-position:center;
-		background-color:#ffffff00;
-		background-image:url("poire.png");
-		background-size:65%;
-		background-repeat:no-repeat;
-		cursor:pointer;
-	    border: none;
-	    color: white;
-	    padding: 60px 40px;
-	    text-align: justify;
-}
 /*
 * {
 	background-color: rgb(0,0,0,0.1);
 }
 */
+
+#Recherche{
+	background-color: #ceef0687;
+	border: 4px;
+	border-style: solid;
+	border-right-color:transparent;
+	border-top-color: transparent;
+	border-bottom-color: #5485a9;
+	border-left-color:transparent;
+
+}
 .container{
 	@include xy-grid-container;
 }
@@ -55,6 +67,11 @@ button{
 	@include xy-cell();
 }
 
-#page{
-	width:100%;
+
+table{
+	border:solid black;
+	text-align:center;
+}
+table tbody{
+	background-color:powderblue;
 }
