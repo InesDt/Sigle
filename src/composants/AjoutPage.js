@@ -10,10 +10,10 @@ const Presentation = props =>
             <div className="grid-x grid-padding-x">
               <div className ="cell small-12">
                 <div className="grid-x grid-padding-x">
-                  <div className="cell small-10">
+                  <div className="cell auto">
                       <h4> Ajout du sigle {props.sigle} </h4>
                   </div>
-                  <div className="cell auto">
+                  <div className="cell small-2">
                        <Retour page={false} />
                    </div>
                 </div>

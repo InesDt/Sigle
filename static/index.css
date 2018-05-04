@@ -1,24 +1,18 @@
 body{
-	background-image: url("arbre.png");
+	background-color:#f3f3ea;
 	background-repeat: no-repeat;
 	background-position: 100% 0%;
 	background-size: 60%;
 }
 
-}
-
-.Menudiv {
-    width: fit-content;
-    background-size: 50%;
-}
 
 button{
 		/*background-position:center;
-		background-color:#ffffff00;
-		background-image:url("pomme.png");
-		background-size:65%;
-		background-repeat:no-repeat;
-		cursor:pointer;
+			background-color:#ffffff00;
+			background-image:url("pomme.png");
+			background-size:65%;
+			background-repeat:no-repeat;
+			cursor:pointer;
 	    border: none;
 	    color: #1d0909;
 	    padding: 20px 20px;
@@ -30,13 +24,13 @@ button{
   flex-wrap: wrap;
   max-width: 320px;
   background:#fbc100;
-    padding: 1em 2.4em;
-    font-size: .9em;
-    margin: 1em;
-    color: white;
-    text-decoration: none;
-    flex-grow: 1;
-    text-align: center;
+  padding: 1em 2.4em;
+  font-size: .9em;
+  margin: 1em;
+  color: white;
+  text-decoration: none;
+  flex-grow: 1;
+  text-align: center;
 }
 
 /*
@@ -51,9 +45,13 @@ button{
 	border-style: solid;
 	border-right-color:transparent;
 	border-top-color: transparent;
-	border-bottom-color: #5485a9;
+	border-bottom-color: black;
 	border-left-color:transparent;
 
+}
+
+#Grille{
+	width:max-content;
 }
 .container{
 	@include xy-grid-container;

@@ -4,7 +4,7 @@ import { selectSigle } from '../reducteurs/form'
 import React from 'react'
 
 const Presentation = props => 
-    { 
+  { 
       var id = 0
       var liste_infos = []
       props.liste.forEach( function(p){  if(((p.nom).substring(0,props.sigle.length) == props.sigle)&&(props.sigle.length>0)) {liste_infos.push((
@@ -37,17 +37,18 @@ const Presentation = props =>
                             </tr>
                           </thead>
                           <tbody>
-                            { liste_infos}
+                            {liste_infos}
                           </tbody>
                         </table>
-                        {(props.sigle.length==0) && <p> Sigle recherché vide </p>}
                         {(liste_infos.length==0) && <p> Aucune donnée correspondante </p>}
                       </div>
                     )
       console.log(props.liste)
      // console.log(props.sigle.length)
-       return (affichage)
-      }
+      return(affichage)
+      
+              
+  }
   
  
 const mapStateToProps = (state) => ({
