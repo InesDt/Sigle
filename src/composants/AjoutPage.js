@@ -35,15 +35,12 @@ const Presentation = props =>
             </div>
         
       )
-  
- 
 
 const mapStateToProps = (state) => ({
 	sigle: selectSigle(state),
 	liste: selectListe(state),
 	def: selectDef(state)
 })
-
 
 const mapDispatchToProps = (dispatch) => ({
 	onChange: (e) => {

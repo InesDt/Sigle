@@ -14,6 +14,8 @@ import Main from "./composants/Main"
 
 import AjoutPage from "./composants/AjoutPage"
 
+import { CSSTransition } from 'react-transition-group'
+
 import {
   setSigleRech,
   setVisibilityPage,

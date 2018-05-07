@@ -4,7 +4,8 @@ import RechSigle from './RechSigle'
 import AjoutBouton from './AjoutBouton'
 import AjoutPage from './AjoutPage'
 import Infos from './Infos'
-import { selectSigle } from '../reducteurs/form'
+import Retour from './Retour'
+import { selectSigle, selectPage } from '../reducteurs/form'
 const Presentation = props => 
  {
     
@@ -28,9 +29,12 @@ const Presentation = props =>
                   }
                   <div className="cell auto"></div>
       		          <RechSigle />
-      		          {(props.sigle.length>0) && <AjoutBouton />}
                   <div className="cell auto"></div>
               </div>
+          </div>
+          <div className =" cell small-12">
+            <div className="Barre">
+            </div>
           </div>
     		  {(props.sigle.length>0) && <Infos />}
         </div>
@@ -40,7 +44,8 @@ const Presentation = props =>
 	}
 
 const mapStateToProps = (state) => ({
-  sigle: selectSigle(state)
+  sigle: selectSigle(state),
+  page: selectPage(state)
 })
 
 const Recherche = connect(mapStateToProps)(Presentation)

@@ -7,16 +7,16 @@ import Recherche from "./Recherche"
 import AjoutPage from "./AjoutPage"
 
 const Presentation = props => {
-   switch(props.page){
+   /*switch(props.page){
               case true: 
                   return(<AjoutPage />)
                    
               default:
-                {
+                {*/
                   return(<Recherche/>)
-                }
+               /* }
               
-            }
+            }*/
 }
 
 

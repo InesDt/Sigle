@@ -48,9 +48,6 @@ button:hover {
 
 }
 
-#Grille{
-	width:max-content;
-}
 .container{
 	@include xy-grid-container;
 }
@@ -70,4 +67,35 @@ table{
 }
 table tbody{
 	background-color:powderblue;
+}
+
+.fade-enter {
+	opacity: 0.01;
+}
+
+.fade-enter-active {
+	opacity: 1;
+	transition: opacity 500ms ease-in;
+}
+
+.fade-exit {
+	opacity: 1;
+}
+
+.fade-exit-active {
+	opacity: 0.01;
+	transition: opacity 500ms ease-in;
+}
+
+
+.Barre {
+    width: 100px;
+    height: 100px;
+
+    -webkit-transition: width 2s linear 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s linear 1s;
+}
+
+.Barre:hover {
+    width: 300px;
 }
