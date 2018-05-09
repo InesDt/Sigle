@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { setSigleRech, selectSigle, selectPage, selectDef, setDefAjout, setVisibilityPage} from '../reducteurs/form'
 import { setSigles } from '../reducteurs/donnees'
 import  AjoutBouton from './AjoutBouton'
-import { CSSTransition, TransitionGroup } from 'react-transition-group'
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 const Presentation = props => 
     {	
         return (
@@ -18,19 +18,21 @@ const Presentation = props =>
               </div>
               
               {
-                (props.page==true)? <CSSTransition timeout={500} className="fade" >
+                (props.page==true)? <ReactCSSTransitionGroup transitionName="AjoutDef" transitionAppear={ true } transitionAppearTimeout={1000} transitionEnter={false} transitionLeave={ false } >
                                     <div className="cell small-5">
                                        <input onChange= {(e) => {console.log(e.target.value); props.onChange_def(e.target.value) }} type="text" placeholder="entrez la définition" value={props.def}/>
                                     </div>
-                                    </CSSTransition> :
+                                    </ReactCSSTransitionGroup> :
                                     <div className="cell auto">
                                     </div>
               }
                 
               {
-                (props.page==true) && <div className="cell small-2">
+                (props.page==true) && <ReactCSSTransitionGroup transitionName="AjoutDef" transitionAppear={ true } transitionAppearTimeout={1000} transitionEnter={false} transitionLeave={ false } >
+                                      <div className="cell small-2">
                                         <button onClick= {() => props.onClick(props.sigle,props.def)}  onSubmit={ e => {e.preventDefault()} } > envoyer </button>
                                       </div>
+                                      </ReactCSSTransitionGroup>
               }
                   
               {((props.sigle.length>0) && (props.page==false)) && <AjoutBouton />}
@@ -47,7 +49,10 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = (dispatch) => ({
 	onChange: (e) => {
-		dispatch(setSigleRech(e.toUpperCase()))
+    dispatch(setSigleRech(e.toUpperCase()))
+    if(e==''){
+      dispatch(setVisibilityPage(false))
+    }
 	},
   onChange_def: (e) => {
     dispatch(setDefAjout(e))

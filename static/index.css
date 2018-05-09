@@ -3,6 +3,7 @@ body{
 	background-repeat: no-repeat;
 	background-position: 100% 0%;
 	background-size: 60%;
+  height:500px;
 }
 
 
@@ -69,24 +70,16 @@ table tbody{
 	background-color:powderblue;
 }
 
-.fade-enter {
+.AjoutDef-appear {
 	opacity: 0.01;
+  transform: translateX(80px);
 }
 
-.fade-enter-active {
-	opacity: 1;
-	transition: opacity 500ms ease-in;
+.AjoutDef-appear.AjoutDef-appear-active {
+	opacity: 0.5;
+  transform: translateX(0px);
+	transition: all 1s ease-out;
 }
-
-.fade-exit {
-	opacity: 1;
-}
-
-.fade-exit-active {
-	opacity: 0.01;
-	transition: opacity 500ms ease-in;
-}
-
 
 .Barre {
     width: 100px;
