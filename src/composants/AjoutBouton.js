@@ -3,10 +3,15 @@ import { connect } from 'react-redux'
 import {setVisibilityPage} from '../reducteurs/form'
 
 
-const Presentation = props => ( <div className="cell small-2"><button onClick={() =>  props.onClick()} > + </button></div>)
+const Presentation = props => ( <div className="cell small-2"><button className="defanimation" onClick={() =>  props.onClick()} > + </button></div>)
 
 const mapDispatchToProps = dispatch => ({
-	onClick: () => {dispatch(setVisibilityPage(true))}
+	onClick: () => {
+    dispatch(setVisibilityPage(true))
+    document.getElementById('inputsigle').classList.remove('input_sigle_entree')
+    document.getElementById('inputsigle').classList.add('input_sigle_decale_s')
+    document.getElementById('inputsigle').classList.remove('input_sigle_decale_r')
+  }
 })
 
 const AjoutBouton = connect(null,mapDispatchToProps)(Presentation)

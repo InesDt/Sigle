@@ -11,12 +11,12 @@ button {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
-    padding: 16px 32px;
+    width: 80px;
+    height:50px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
@@ -39,14 +39,19 @@ button:hover {
 */
 
 #Recherche{
-	background-color: #ceef0687;
-	border: 4px;
-	border-style: solid;
-	border-right-color:transparent;
-	border-top-color: transparent;
-	border-bottom-color: black;
-	border-left-color:transparent;
+  border: 4px;
+  border-style: solid;
+  border-right-color:transparent;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color:transparent;
+  background-color:#ceef0687;
+  animation: anim_back 1s ease-in;
+}
 
+@keyframes anim_back {
+    from { background-color: #f3f3ea; }
+    to { background-color: #ceef0687;}
 }
 
 .container{
@@ -63,32 +68,164 @@ button:hover {
 
 
 table{
-	border:solid black;
+	border:solid transparent;
 	text-align:center;
 }
 table tbody{
 	background-color:powderblue;
 }
+/*
+.AjoutDef-enter {
+  opacity: 0.01;
 
-.AjoutDef-appear {
-	opacity: 0.01;
+}
+
+.AjoutDef-enter.AjoutDef-enter-active {
+  opacity: 1;
+
+  transition: all 500ms ease-in;
+}
+
+.AjoutDef-leave {
+  opacity: 1;
+  
+}
+
+.AjoutDef-leave.AjoutDef-leave-active {
+  opacity: 0.01; 
+
+  transition: all 200ms ease-in;
+}
+*/
+.Barre{
+  background-color: #256500a6;
+  height: 2px;
+  animation: barre_entree 1s ease-in;
+}
+
+@keyframes barre_entree {
+    from { width: 0px; }
+    to { width: 863px;}
+}
+
+/*
+.AjoutBarre-enter {
+  opacity: 1;
+  width: 1px;
   transform: translateX(80px);
 }
 
-.AjoutDef-appear.AjoutDef-appear-active {
-	opacity: 0.5;
+.AjoutBarre-enter.AjoutBarre-enter-active {
+  opacity: 1;
+  width: 951px;
   transform: translateX(0px);
-	transition: all 1s ease-out;
+  transition: all .3s cubic-bezier(0.49, 0.47, 0.49, 0.5);}
 }
 
-.Barre {
-    width: 100px;
-    height: 100px;
 
-    -webkit-transition: width 2s linear 1s; /* For Safari 3.1 to 6.0 */
-    transition: width 2s linear 1s;
+.Titre-leave {
+  opacity: 1;
+  transform: translateY(0px);
 }
 
-.Barre:hover {
-    width: 300px;
+.Titre-leave.Titre-leave-active {
+  opacity: 0.01;
+  transform: translateY(-10px);
+  transition: all 500ms ease-in;
 }
+
+.RechSigle-enter{
+  opacity: 0.01;
+  
+}
+.RechSigle-enter.RechSigle-enter-active{
+  opacity: 1;
+  transition: all 500ms ease-in;
+
+}
+
+.RechSigle-leave{
+  opacity: 1;
+  
+}
+.RechSigle-leave.RechSigle-leave-active{
+  opacity: 0.01;
+  transition: all 500ms ease-in;
+
+}
+
+.AjoutLigne-enter{
+  opacity: 0.01;
+  
+}
+.AjoutLigne-enter.AjoutLigne-enter-active{
+  opacity: 1;
+  transition: all 200ms ease-in;
+
+}
+
+.AjoutLigne-leave{
+  opacity: 1;
+  
+}
+.AjoutLigne-leave.AjoutLigne-leave-active{
+  opacity: 0.01;
+  transition: all 200ms ease-in;
+
+}
+
+* {
+  transition: all .3s cubic-bezier(.2, 0, .4, 1);
+}
+
+.page {
+  display: flex;
+}
+*/
+.input_sigle_entree{
+  animation: anim_sigle_entree .3s ease-in;
+}
+
+
+@keyframes anim_sigle_entree {
+    from {transform: translate(100px,80px);}
+    to {transform:translate(0px,0px);}
+}
+
+.input_sigle_vide{
+  animation: anim_sigle_vide .3s ease-in;
+}
+
+
+@keyframes anim_sigle_vide {
+    from {transform: translate(-100px,-80px);}
+    to {transform:translate(0px,0px);}
+}
+
+.defanimation {
+  animation: anim_def .7s ease-in;
+}
+
+@keyframes anim_def {
+    from { opacity: 0.01; }
+    to { opacity: 1; }
+}
+
+.input_sigle_decale_s {
+  animation: anim_sigle_decale_s .5s ease-in;
+}
+
+@keyframes anim_sigle_decale_s {
+    from { transform: translateX(215px); }
+    to { transform: translateX(0px); }
+}
+
+.input_sigle_decale_r {
+  animation: anim_sigle_decale_r .5s ease-out;
+}
+
+@keyframes anim_sigle_decale_r {
+    from { transform: translateX(-215px); }
+    to { transform: translateX(0px); }
+}
+

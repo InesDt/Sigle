@@ -24,7 +24,7 @@ const Presentation = props =>
                           
                             
       const affichage = (
-                      <div className = "cell small-12">
+                      <div className="defanimation">
                         <table border="4">
                           <thead>
                             <tr> 
