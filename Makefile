@@ -22,3 +22,22 @@ clean:
 	sudo docker container prune -f
 	sudo docker image rm $(image_name)
 	sudo docker image prune -f
+
+
+start:
+	sudo docker run \
+		--rm \
+		-d \
+		--name $(image_name)_elastic \
+		--network host \
+		-p 9200:9200 \
+		-p 9300:9300 \
+		-e "discovery.type=single-node" \
+		docker.elastic.co/elasticsearch/elasticsearch:6.2.3
+
+stop:
+	sudo docker container ls -f=name=$(image_name)_elastic --quiet \
+		| xargs -r -n1 sudo docker container kill
+	sudo docker container prune -f
+
+restart: stop start
