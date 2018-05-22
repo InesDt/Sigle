@@ -24,7 +24,7 @@ clean:
 	sudo docker image prune -f
 
 
-start:
+start: elastic
 	sudo docker run \
 		--rm \
 		-d \
@@ -33,7 +33,16 @@ start:
 		-p 9200:9200 \
 		-p 9300:9300 \
 		-e "discovery.type=single-node" \
-		docker.elastic.co/elasticsearch/elasticsearch:6.2.3
+		$(image_name)_elastic
+
+
+elastic:
+	sudo docker build \
+		--rm \
+		--network=host \
+		--tag=$(image_name)_elastic \
+		--file elastic.Dockerfile \
+		.
 
 stop:
 	sudo docker container ls -f=name=$(image_name)_elastic --quiet \
