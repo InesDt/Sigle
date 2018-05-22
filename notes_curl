@@ -28,7 +28,12 @@ en javascript:
 
 
 pour chercher les sigles qui ont pour début B:
-curl -X GET "localhost:9200/sigles/_search" -H 'Content-Type: application/json' -d' { "query": { "match_phrase_prefix": { "acronym": "B" } } } '
+curl -X GET "localhost:9200/sigles/_search" -H 'Content-Type: application/json' -d' { "query": {
+             "match_phrase_prefix": { "acronym": "AT"}
+            },
+            "Fielddata": "true",
+            "sort": [ {"acronym": "desc", "fielddataa":"true"}]
+            } '
 
   en javascript:
     client.search(
@@ -51,3 +56,66 @@ curl -X GET "localhost:9200/sigles/_search" -H 'Content-Type: application/json' 
 
 pour mettre à jour un sigle:
  curl -X POST "localhost:9200/sigles/_doc/24/_update?pretty" -H 'Content-Type: application/json' -d' {"doc" : {"acronym": "ATIC", "definition": "Agence pour les technologies de l’information et de la communication dans l’administration" } } '
+
+pour afficher les documents de l'index sigles:
+client.search(
+          {
+           index: 'sigles',
+           body: {
+            query: {
+             match_all: {}
+            } 
+           }
+          }
+        ).then(function (resp){
+                 var hits = resp.hits.hits; 
+                 console.log(hits[0]._source.acronym)
+                }, 
+               function (error) { 
+                 console.trace(error.message)
+                }
+               )
+
+
+notes definition des propriétés de l'index sigles:
+
+
+curl -X PUT "localhost:9200/sigles" -H 'Content-Type: application/json' -d'                                                       
+{                                                     
+    "mappings": {
+        "_doc": {
+
+{
+  "properties": {
+    "acronym":{
+      "type":"text",
+      "fielddata": true
+    },
+    "definition":{
+      "type":"text",
+      "fielddata": true
+    }
+  }
+}
+
+}}}'
+
+curl -X PUT "localhost:9200/sigles" -H 'Content-Type: application/json' -d'                                                       
+{                                                     
+    "mappings": {
+        "_doc": {
+          "properties": {
+    "acronym":{
+      "type":"text",
+      "fielddata": true
+    },
+    "definition":{
+      "type":"text",
+      "fielddata": true
+    }
+  }
+            
+        }
+    }
+}
+'
