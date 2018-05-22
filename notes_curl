@@ -3,10 +3,51 @@
 pour ajouter un sigle dans l'index sigles:
  curl -X PUT "localhost:9200/sigles/_doc/24" -H 'Content-Type: application/json' -d' {"acronym": "ATICA", "definition": "Agence pour les technologies de l’information et de la communication dans l’administration" } '
 
+en javascript:
+    client.index(
+          {
+           index: 'sigles',
+           type: '_doc',
+           id: '84',
+           body: {
+            acronym: 'ATICA',
+            definition: 'Agence pour les technologies de l’information et de la communication dans l’administration'
+            } 
+           }
+          }
+        ).then(function (resp){
+                 var hits = resp.hits.hits; 
+                 console.log(hits)
+                }, 
+               function (error) { 
+                 console.trace(error.message)
+                }
+               )
+
+
+
+
 pour chercher les sigles qui ont pour début B:
-curl -X GET "localhost:9200/sigles/_search" -H 'Content-Type: application/json' -d' { "query": { "match_phrase_prefix": { "acronym": "B" } } } '  
+curl -X GET "localhost:9200/sigles/_search" -H 'Content-Type: application/json' -d' { "query": { "match_phrase_prefix": { "acronym": "B" } } } '
+
+  en javascript:
+    client.search(
+          {
+           index: 'sigles',
+           body: {
+            query: {
+             match_phrase_prefix: { "acronym": "B"}
+            } 
+           }
+          }
+        ).then(function (resp){
+                 var hits = resp.hits.hits; 
+                 console.log(hits)
+                }, 
+               function (error) { 
+                 console.trace(error.message)
+                }
+               )
 
 pour mettre à jour un sigle:
  curl -X POST "localhost:9200/sigles/_doc/24/_update?pretty" -H 'Content-Type: application/json' -d' {"doc" : {"acronym": "ATIC", "definition": "Agence pour les technologies de l’information et de la communication dans l’administration" } } '
-
-
