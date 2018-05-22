@@ -11,7 +11,7 @@ var elasticsearch = require('elasticsearch')
     log: 'trace'
   });
 
-  
+
 
 
 //Action creator
@@ -43,33 +43,17 @@ const donnees = (state =donnees_sigles, action) => {
            body: {
             acronym: action.nom,
             definition: action.def
-            } 
+            }
            }
           
         ).then(function (resp){
+
                 }, 
                function (error) { 
                  console.trace(error.message)
                 }
-               )
-        /* on attend 30 secondes pour l'indexation*/
-        client.ping({
-				  requestTimeout: 60000,
-				}, function (error) {
-				  if (error) {
-				    console.error('elasticsearch cluster is down!');
-				  } else {
-				    console.log('All is well');
-				  }
-				})
-			 	//=> ajout du sigle dans elasticsearch
-				return state
-			}
-		case 'SET_RECH':
-			{
-				var hits = []
-
-				client.search(
+               ).then(function(){ return new Promise(function(resolve){ setTimeout(4000)}) }).then(
+        client.search(
           {
            index: 'sigles',
            body: {
@@ -83,24 +67,40 @@ const donnees = (state =donnees_sigles, action) => {
         ).then(function (resp){
                  hits = resp.hits.hits; 
                  hits= update(hits.map((p) => (p._source)), hits)
+                 console.log(hits)
                 }, 
                function (error) { 
                  console.trace(error.message)
                 }
+               ))
+			 	//=> ajout du sigle dans elasticsearch
+				return state
+			}
+		case 'SET_RECH':
+			{
+				var hits = [];
+
+				return client.search(
+          {
+           index: 'sigles',
+           body: {
+            query: {
+             match_phrase_prefix: { acronym: action.nom}
+            },
+            sort: [ {acronym: 'asc'}],
+            _source: [ 'acronym', 'definition' ]
+           }
+          }
+        ).then(function (resp){
+                 hits = resp.hits.hits; 
+                 hits= update(hits.map((p) => (p._source)), hits)
+                 return update({ liste: [] } ,state) 
+                }, 
+               function (error) { 
+                 console.trace(error.message)
+                 return state
+                }
                )
-        client.ping({
-				  requestTimeout: 60000,
-				}, function (error) {
-				  if (error) {
-				    console.error('elasticsearch cluster is down!');
-				  } else {
-				    console.log('All is well');
-				  }
-				  client.close()
-				});
-        
-        console.log(hits)
-        return update({ liste: hits } ,state) 
 			}
 		default:
 			return state
