@@ -6,7 +6,7 @@ import React from 'react'
 const Presentation = props => 
   { 
       var id = 0
-      var liste_infos = []
+      var liste_infos = props.liste
       props.liste.forEach( function(p){  if(((p.nom).substring(0,props.sigle.length) == props.sigle)&&(props.sigle.length>0)) {liste_infos.push((
                                                                               <tr key ={id++}>
                                                                                 <td >

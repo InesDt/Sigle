@@ -32,7 +32,7 @@ export function setRech(sigle_nom) {
 
 const update = (a,state) => Object.assign({},state,a)
 //Reducer
-const donnees = (state =donnees_sigles, action) => {
+const donnees = async (state =donnees_sigles, action) => {
 	switch(action.type){
 		case 'SET_SIGLES':
 			{
@@ -80,7 +80,7 @@ const donnees = (state =donnees_sigles, action) => {
 			{
 				var hits = [];
 
-				return client.search(
+				var hits = await client.search(
           {
            index: 'sigles',
            body: {
@@ -91,16 +91,10 @@ const donnees = (state =donnees_sigles, action) => {
             _source: [ 'acronym', 'definition' ]
            }
           }
-        ).then(function (resp){
-                 hits = resp.hits.hits; 
-                 hits= update(hits.map((p) => (p._source)), hits)
-                 return update({ liste: [] } ,state) 
-                }, 
-               function (error) { 
-                 console.trace(error.message)
-                 return state
-                }
-               )
+        )
+        hits= hits.hits.hits
+        hits= update(hits.map((p) => (p._source)), hits)
+        return update({ liste: hits } ,state) 
 			}
 		default:
 			return state
