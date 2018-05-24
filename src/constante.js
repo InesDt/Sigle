@@ -1,5 +1,5 @@
 
 
-const donnees_sigles = {liste:[{nom:'APB', def:'Admission Post Bac'}]}
+const donnees_sigles = {liste:[]}
 
 export default donnees_sigles

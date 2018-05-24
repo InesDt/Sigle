@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { setSigleRech, selectSigle, selectPage, selectDef, setDefAjout, setVisibilityPage} from '../reducteurs/form'
-import { setSigles, setRech } from '../reducteurs/donnees'
+import { fetch_setSigle, fetch_setRech } from '../reducteurs/donnees'
 import  AjoutBouton from './AjoutBouton'
 import Retour from './Retour'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
@@ -52,7 +52,7 @@ const mapStateToProps = (state) => ({
 const mapDispatchToProps = (dispatch) => ({
 	onChange: (e) => {
     dispatch(setSigleRech(e.toUpperCase()))
-    dispatch(setRech(e.toUpperCase()))
+    dispatch(fetch_setRech(e.toUpperCase()))
     if(e==''){
       dispatch(setVisibilityPage(false))
       document.getElementById('inputsigle').classList.remove('input_sigle_entree')
@@ -69,7 +69,8 @@ const mapDispatchToProps = (dispatch) => ({
   },
   onClick: (nom, def) => {
     if(nom.length>0 && def.length>0){
-      dispatch(setSigles({nom: nom, def: def}))
+      dispatch(fetch_setSigle({acronym: nom, definition: def}))
+      dispatch(fetch_setRech(nom))
     }
     dispatch(setDefAjout(''))
     dispatch(setVisibilityPage(false))

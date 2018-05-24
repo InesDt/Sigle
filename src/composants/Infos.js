@@ -6,22 +6,25 @@ import React from 'react'
 const Presentation = props => 
   { 
       var id = 0
-      var liste_infos = props.liste
-      props.liste.forEach( function(p){  if(((p.nom).substring(0,props.sigle.length) == props.sigle)&&(props.sigle.length>0)) {liste_infos.push((
-                                                                              <tr key ={id++}>
+      var test = [{acronym:'APB', definition:'Admission Post Bac'}, {acronym:'APB', definition:'Admission Post Bac'},{acronym:'APB', definition:'Admission Post Bac'},{acronym:'APB', definition:'Admission Post Bac'}]
+      /*
+      var liste_infos = []
+      
+      props.liste.forEach( function(p,index){  liste_infos.push((
+                                                                              <tr key ={index}>
                                                                                 <td >
-                                                                                  {p.nom} 
+                                                                                  {p.acronym} 
                                                                                 </td>
                                                                                 <td>
-                                                                                  {p.def}
+                                                                                  {p.definition}
                                                                                 </td>
                                                                               </tr>
-                                                                              ))} 
+                                                                              ))
                                         }.bind(this)
                                                 )
                                    
                              
-                          
+         */                 
                             
       const affichage = (
                       <div className="defanimation">
@@ -37,13 +40,13 @@ const Presentation = props =>
                             </tr>
                           </thead>
                           <tbody>
-                            {liste_infos}
+                            {props.liste}
                           </tbody>
                         </table>
-                        {(liste_infos.length==0) && <p> Aucune donnée correspondante </p>}
+                        {(props.liste.length==0) && <p> Aucune donnée correspondante </p>}
                       </div>
                     )
-      console.log(props.liste)
+      
      // console.log(props.sigle.length)
       return(affichage)
       

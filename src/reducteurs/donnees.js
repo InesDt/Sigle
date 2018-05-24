@@ -1,4 +1,5 @@
 import donnees_sigles from '../constante'
+import React from 'react'
 
 // selector
 const selectList = state => state.liste
@@ -18,84 +19,83 @@ var elasticsearch = require('elasticsearch')
 export function setSigles(sigle) {
 	return {
       type: 'SET_SIGLES',
-			nom: sigle.nom,
-			def: sigle.def
+			acronym: sigle.nom,
+			definition: sigle.def
 		}
 }
 
-export function setRech(sigle_nom) {
+// Action creator
+export function setRech(liste_sigle) {
 	return {
 		type: 'SET_RECH',
-		nom: sigle_nom
+		liste: liste_sigle
+	}
+}
+//
+export function fetch_setRech(sigle_nom){
+	console.log(sigle_nom)
+	return dispatch => {
+		client.search(
+          {
+           index: 'sigles',
+           body: {
+            query: {
+             match_phrase_prefix: { acronym: sigle_nom}
+            },
+            sort: [ {acronym: 'asc'}],
+            _source: [ 'acronym', 'definition' ]
+           }
+          }
+        ).then(
+        	res => {
+        		res = res.hits.hits;
+        		var hits=[]
+        		var liste_infos = [] 
+            res.forEach((p) => hits.push(p._source))
+            console.log(hits)
+            hits.forEach( function(p,index){  liste_infos.push((
+                                                                              <tr key ={index}>
+                                                                                <td >
+                                                                                  {p.acronym} 
+                                                                                </td>
+                                                                                <td>
+                                                                                  {p.definition}
+                                                                                </td>
+                                                                              </tr>
+                                                                              ))
+                                        }.bind(this)
+                                                )
+						dispatch(setRech(liste_infos))
+        	}
+        )
+	}
+}
+
+// 
+export function fetch_setSigle(sigle){
+	return dispatch => {
+		client.index(
+          {
+           index: 'sigles',
+           type: '_doc',
+           body: {
+            acronym: sigle.acronym,
+            definition: sigle.definition
+            }
+           }
+          
+        )
 	}
 }
 
 const update = (a,state) => Object.assign({},state,a)
 //Reducer
-const donnees = async (state =donnees_sigles, action) => {
+const donnees = (state =donnees_sigles, action) => {
 	switch(action.type){
-		case 'SET_SIGLES':
-			{
-				client.index(
-          {
-           index: 'sigles',
-           type: '_doc',
-           body: {
-            acronym: action.nom,
-            definition: action.def
-            }
-           }
-          
-        ).then(function (resp){
-
-                }, 
-               function (error) { 
-                 console.trace(error.message)
-                }
-               ).then(function(){ return new Promise(function(resolve){ setTimeout(4000)}) }).then(
-        client.search(
-          {
-           index: 'sigles',
-           body: {
-            query: {
-             match_phrase_prefix: { acronym: action.nom}
-            },
-            sort: [ {acronym: 'asc'}],
-            _source: [ 'acronym', 'definition' ]
-           }
-          }
-        ).then(function (resp){
-                 hits = resp.hits.hits; 
-                 hits= update(hits.map((p) => (p._source)), hits)
-                 console.log(hits)
-                }, 
-               function (error) { 
-                 console.trace(error.message)
-                }
-               ))
-			 	//=> ajout du sigle dans elasticsearch
-				return state
-			}
+	
 		case 'SET_RECH':
-			{
-				var hits = [];
+			return update({ liste: action.liste } ,state) 
 
-				var hits = await client.search(
-          {
-           index: 'sigles',
-           body: {
-            query: {
-             match_phrase_prefix: { acronym: action.nom}
-            },
-            sort: [ {acronym: 'asc'}],
-            _source: [ 'acronym', 'definition' ]
-           }
-          }
-        )
-        hits= hits.hits.hits
-        hits= update(hits.map((p) => (p._source)), hits)
-        return update({ liste: hits } ,state) 
-			}
 		default:
 			return state
 	}
