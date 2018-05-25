@@ -45,7 +45,8 @@ export function fetch_setRech(sigle_nom){
              match_phrase_prefix: { acronym: sigle_nom}
             },
             sort: [ {acronym: 'asc'}],
-            _source: [ 'acronym', 'definition' ]
+            _source: [ 'acronym', 'definition' ],
+            size:10000
            }
           }
         ).then(
