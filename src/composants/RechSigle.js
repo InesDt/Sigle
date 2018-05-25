@@ -70,7 +70,7 @@ const mapDispatchToProps = (dispatch) => ({
   onClick: (nom, def) => {
     if(nom.length>0 && def.length>0){
       dispatch(fetch_setSigle({acronym: nom, definition: def}))
-      dispatch(fetch_setRech(nom))
+      
     }
     dispatch(setDefAjout(''))
     dispatch(setVisibilityPage(false))

@@ -37,6 +37,8 @@ const Presentation = props =>
                               <th>
                                   Définition
                               </th>
+                              <th>
+                              </th>
                             </tr>
                           </thead>
                           <tbody>

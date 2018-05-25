@@ -1,5 +1,6 @@
 import donnees_sigles from '../constante'
 import React from 'react'
+import BoutonSuppr from '../composants/BoutonSuppr'
 
 // selector
 const selectList = state => state.liste
@@ -35,6 +36,7 @@ export function setRech(liste_sigle) {
 export function fetch_setRech(sigle_nom){
 	console.log(sigle_nom)
 	return dispatch => {
+
 		client.search(
           {
            index: 'sigles',
@@ -61,6 +63,9 @@ export function fetch_setRech(sigle_nom){
                                                                                 <td>
                                                                                   {p.definition}
                                                                                 </td>
+                                                                                <td>
+                                                                                	<BoutonSuppr value={p} />
+                                                                                </td>
                                                                               </tr>
                                                                               ))
                                         }.bind(this)
@@ -81,10 +86,55 @@ export function fetch_setSigle(sigle){
            body: {
             acronym: sigle.acronym,
             definition: sigle.definition
-            }
-           }
+            },
+            refresh: true
+           }).then(
+           		() => { dispatch(fetch_setRech(sigle.acronym))}
+           	)
           
-        )
+        
+	}
+}
+
+function supprSigle(id, sigle_courant){
+	return dispatch => { client.delete({
+		index: 'sigles',
+		type: '_doc',
+		id: id,
+		refresh:true
+	}).then(
+		() => { dispatch(fetch_setRech(sigle_courant))}
+	)
+}
+}
+export function fetch_remSigle(sigle, sigle_courant){
+	return dispatch => {
+		var id = 0;
+		client.search(
+          {
+           index: 'sigles',
+           body: {
+            query: {
+            	bool: {
+            		must: [
+            			{match:{ acronym: sigle.acronym}},
+            			{match:{ definition: sigle.definition}}
+
+            		]
+            	}
+            },
+          
+            sort: [ {acronym: 'asc'}],
+            _source: [ 'acronym', 'definition' ]
+           }
+          }
+        ).then(
+        	res => {
+        		res = res.hits.hits;
+        		id= res[0]._id
+        		dispatch(supprSigle(id, sigle_courant))
+          }
+          )
 	}
 }
 
