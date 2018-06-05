@@ -14,7 +14,7 @@ const Presentation = props =>
                 {
                   (props.page==true) && 
                                         <div className="cell small-2">
-                                          <button onClick= {() => props.onClick(props.sigle,props.def)}  onSubmit={ e => {e.preventDefault()} } className="defanimation"> envoyer </button>
+                                          <button id="Button" onClick= {() => props.onClick(props.sigle,props.def)}  onSubmit={ e => {e.preventDefault()} } className="defanimation"> envoyer </button>
                                         </div>
                 }
                 {

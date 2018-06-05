@@ -1,60 +1,1247 @@
-
-
-
+﻿
 
 
 {"index":{"_id":"1"}}
-{"acronym":"APB", "definition":"Admission Post Bac"}
-
+{"acronym":"AAH", "definition":"Allocation pour adultes handicapés "}
 {"index":{"_id":"2"}}
-{"acronym_number":2,"acronym":"AAH", "definition":"Allocation pour adultes handicapésd "}
-
-
-
+{"acronym":"AAMEJ", "definition":"Association des agences de mannequins enfants et juniors"}
 {"index":{"_id":"3"}}
-{"acronym_number":3,"acronym":"AAMEJ", "definition":"Association des agences de mannequins enfants et juniors"}
-{"index":{"_id":"4"}}
 {"acronym":"ACAATA", "definition":"Attribution de la cessation anticipée d’activité destinée aux travailleurs exposés à l’amiante"}
-{"index":{"_id":"5"}}
+{"index":{"_id":"4"}}
 {"acronym":"ACC", "definition":"Adénome à cellules claires"}
-{"index":{"_id":"6"}}
+{"index":{"_id":"5"}}
 {"acronym":"ACEPP", "definition":"Association des collectifs enfants-parents-professionnels"}
-{"index":{"_id":"7"}}
+{"index":{"_id":"6"}}
 {"acronym":"ACOSS", "definition":"Agence centrale des organismes de sécurité sociale"}
-{"index":{"_id":"8"}}
+{"index":{"_id":"7"}}
 {"acronym":"ACTIFPSS", "definition":"Association chargée des techniques d’information et de formation des personnels sanitaires et sociaux"}
+{"index":{"_id":"8"}}
+{"acronym":"ACT", "definition":"UP Agir Conseiller Travailler – Unifier Protéger"}
 {"index":{"_id":"9"}}
-{"acronym":"ACT-UP", "definition":"Agir Conseiller Travailler – Unifier Protéger"}
-{"index":{"_id":"10"}}
 {"acronym":"ADAPEI", "definition":"Association départementale des amis et parents d'enfants inadaptés"}
+{"index":{"_id":"10"}}
+{"acronym":"ADECRI", "definition":"Association pour le développement et la coordination des relations internationales "}
 {"index":{"_id":"11"}}
-{"acronym":"ADECRI", "definition":"Association pour le développement et la coordination des relations internationales"}
-
-
+{"acronym":"ADELF", "definition":"Association des épidémiologistes de langue française"}
 {"index":{"_id":"12"}}
-{"acronym":"BA", "definition":"Bureau d’accueil"}
+{"acronym":"ADEME", "definition":"Agence de l’environnement et de la maîtrise de l’énergie"}
 {"index":{"_id":"13"}}
-{"acronym":"BAE", "definition":"Bourse d’accès à l’emploi"}
+{"acronym":"ADEP", "definition":"Agence nationale pour le développement de l’éducation permanente"}
 {"index":{"_id":"14"}}
-{"acronym":"BAS", "definition":"Bureau d’aide sociale"}
+{"acronym":"ADIEF", "definition":"Association pour le développement des initiatives économiques par les femmes"}
 {"index":{"_id":"15"}}
-{"acronym":"BD", "definition":"Bureau départemental"}
+{"acronym":"ADIL", "definition":"Agence départementale d’information sur le logement"}
 {"index":{"_id":"16"}}
-{"acronym":"BEJI", "definition":"Bureau d’entraide judiciaire internationale (ministère de la justice)"}
+{"acronym":"ADMEF", "definition":"Action pour les droits des malades étrangers en France"}
 {"index":{"_id":"17"}}
-{"acronym":"BEP", "definition":"Brevet d’enseignement professionnel"}
-
-
-
+{"acronym":"ADRI", "definition":"Agence pour le développement des relations interculturelles (GIP)"}
 {"index":{"_id":"18"}}
-{"acronym":"CADA", "definition":"Commission d’accès aux documents administratifs"}
+{"acronym":"ADUM", "definition":"Association départementale des urgences médicales"}
 {"index":{"_id":"19"}}
-{"acronym":"CADA", "definition":"Centre d’accueil pour les demandeurs d’asile"}
+{"acronym":"AEFTI", "definition":"Association pour l’enseignement et la formation professionnelle des travailleurs immigrés"}
 {"index":{"_id":"20"}}
-{"acronym":"CADES", "definition":"Caisse d’amortissement de la dette sociale"}
+{"acronym":"AEN", "definition":"Agence pour l’énergie nucléaire"}
 {"index":{"_id":"21"}}
-{"acronym":"CAE", "definition":"Conseil d’analyse économique"}
+{"acronym":"AEPS", "definition":"Action éducative périscolaire "}
 {"index":{"_id":"22"}}
-{"acronym":"CAES", "definition":"Centre d'application et d'études de sémiologie graphique"}
+{"acronym":"AERE", "definition":"Association pour l’établissement des réfugiés étrangers"}
 {"index":{"_id":"23"}}
+{"acronym":"AES", "definition": "Allocation d’éducation spécialisée"}
+{"index":{"_id":"24"}}
+{"acronym":"AFAQ", "definition": "Agence française d’assurance qualité"}
+{"index":{"_id":"25"}}
+{"acronym":"AFDI", "definition": "Agriculteurs français et développement international"}
+{"index":{"_id":"26"}}
+{"acronym":"AFEAMA", "definition": "Aide à la famille pour l’emploi d’une assistance maternelle agréée"}
+{"index":{"_id":"27"}}
+{"acronym":"AFIJ", "definition": "Association pour faciliter l’insertion professionnelle des jeunes diplômés"}
+{"index":{"_id":"28"}}
+{"acronym":"AFIPA", "definition": "Association française de l’industrie pharmaceutique pour une automédication responsable"}
+{"index":{"_id":"29"}}
+{"acronym":"AFLS", "definition":"Association française de lutte contre le sida "}
+{"index":{"_id":"30"}}
+{"acronym":"AFMHA", "definition":"Association nationale pour la formation continue du personnel médical des hôpitaux publics en administration et gestion."}
+{"index":{"_id":"31"}}
+{"acronym":"AFNOR", "definition":"Association française de normalisation"}
+{"index":{"_id":"32"}}
+{"acronym":"AFPA", "definition":"Association nationale pour la formation professionnelle des adultes"}
+{"index":{"_id":"33"}}
+{"acronym":"AFPE", "definition":"Aide à la formation préalable à l'embauche"}
+{"index":{"_id":"34"}}
+{"acronym":"AFPIC", "definition":"Association nationale pour la formation et la promotion professionnelle dans l’industrie du cuir et de la chaussure"}
+{"index":{"_id":"35"}}
+{"acronym":"AFPS", "definition":"Association formation et promotion sociale"}
+{"index":{"_id":"36"}}
+{"acronym":"AFR", "definition":"Allocation formation-reclassement "}
+{"index":{"_id":"37"}}
+{"acronym":"AFS", "definition":"Agence française du sang"}
+{"index":{"_id":"38"}}
+{"acronym":"AFSEA", "definition":"Association française pour la sauvegarde de l’enfance et de l’adolescence "}
+{"index":{"_id":"39"}}
+{"acronym":"AFSSA", "definition":"Agence française de sécurité sanitaire des aliments"}
+{"index":{"_id":"40"}}
+{"acronym":"AFSSAPS", "definition":"Agence française de sécurité sanitaire des produits de santé"}
+{"index":{"_id":"41"}}
+{"acronym":"AFSSE", "definition":"Agence française de sécurité sanitaire environnementale"}
+{"index":{"_id":"42"}}
+{"acronym":"AFTRP", "definition":"Agence foncière et technique de la région parisienne"}
+{"index":{"_id":"43"}}
+{"acronym":"AFVN", "definition":"Association française des villes nouvelles "}
+{"index":{"_id":"44"}}
+{"acronym":"AGDREF", "definition":"Application informatique de gestion des ressortissants étrangers en France"}
+{"index":{"_id":"45"}}
+{"acronym":"AGED", "definition":"Allocation de garde d’enfant à domicile"}
+{"index":{"_id":"46"}}
+{"acronym":"AGEFAL", "definition":"Association de gestion du fonds des formations en alternance"}
+{"index":{"_id":"47"}}
+{"acronym":"AGEFIPH", "definition":"Association nationale pour la gestion du fonds pour l’insertion professionnelle des handicapés"}
+{"index":{"_id":"48"}}
+{"acronym":"AGEFIPH", "definition":"Agir efficacement pour l’insertion professionnelle des personnes handicapées"}
+{"index":{"_id":"49"}}
+{"acronym":"AGHTM", "definition":"Association générale des hygiénistes techniciens municipaux"}
+{"index":{"_id":"50"}}
+{"acronym":"AGIRC", "definition":"Association générale des institutions de retraites des cadres"}
+{"index":{"_id":"51"}}
+{"acronym":"AGORA", "definition":"Atelier de gestion, organisation et recherche en aménagement"}
+{"index":{"_id":"52"}}
+{"acronym":"AI", "definition":"Association intermédiaire"}
+{"index":{"_id":"53"}}
+{"acronym":"AIDES", "definition":"Association d’information et d’aide aux malades du sida"}
+{"index":{"_id":"54"}}
+{"acronym":"AIEA", "definition":"Agence internationale de l’énergie atomique"}
+{"index":{"_id":"55"}}
+{"acronym":"AIF", "definition":"Aide individuelle de formation "}
+{"index":{"_id":"56"}}
+{"acronym":"AINS", "definition":"Anti-inflammatoire non stéroïdiens"}
+{"index":{"_id":"57"}}
+{"acronym":"AISS", "definition":"Association internationale de sécurité sociale"}
+{"index":{"_id":"58"}}
+{"acronym":"ALAT", "definition":"Aviation légère de l’armée de terre "}
+{"index":{"_id":"59"}}
+{"acronym":"ALE", "definition":"Aide locale pour l’emploi"}
+{"index":{"_id":"60"}}
+{"acronym":"ALGI", "definition":"Association pour le logement de grands infirmes."}
+{"index":{"_id":"61"}}
+{"acronym":"ALS", "definition":"Allocation de logement à caractère social"}
+{"index":{"_id":"62"}}
+{"acronym":"ALT", "definition":"Allocation de logement temporaire"}
+{"index":{"_id":"63"}}
+{"acronym":"AME", "definition":"Aide médicale d’Etat"}
+{"index":{"_id":"64"}}
+{"acronym":"AMEDOM", "definition":"Association des métropolitains des départements d’Outre-mer"}
+{"index":{"_id":"65"}}
+{"acronym":"AMF", "definition":"Association des maires de France"}
+{"index":{"_id":"66"}}
+{"acronym":"AMIS", "definition":"Algériens menacés par l’islamisme "}
+{"index":{"_id":"67"}}
+{"acronym":"AMOF", "definition":"Association de main-d’œuvre et de formation"}
+{"index":{"_id":"68"}}
+{"acronym":"AMUHF", "definition":"Association des médecins urgentistes hospitaliers de France"}
+{"index":{"_id":"69"}}
+{"acronym":"ANACT", "definition":"Agence nationale pour l’amélioration des conditions de travail"}
+{"index":{"_id":"70"}}
+{"acronym":"ANAEM", "definition":"Agence nationale de l’accueil des étrangers et des migrations.(Résultat de la fusion en 2005 du SSAé et de l’OMI)"}
+{"index":{"_id":"71"}}
+{"acronym":"ANAES", "definition":"Agence nationale d’accréditation et d’évaluation en santé"}
+{"index":{"_id":"72"}}
+{"acronym":"ANAFE", "definition":"Association nationale d'assistance aux frontières pour les étrangers"}
+{"index":{"_id":"73"}}
+{"acronym":"ANAH", "definition":"Agence nationale pour l’amélioration de l’habitat"}
+{"index":{"_id":"74"}}
+{"acronym":"ANAM", "definition":"Agence nationale pour l'accueil et les migrations internationales "}
+{"index":{"_id":"75"}}
+{"acronym":"ANAP", "definition":"Agence nationale d’appui à la performance des établissements de santé et médico-sociaux"}
+{"index":{"_id":"76"}}
+{"acronym":"ANCE", "definition":"Agence nationale pour la création d’entreprises"}
+{"index":{"_id":"77"}}
+{"acronym":"ANCV", "definition":"Association nationale des chèques vacances"}
+{"index":{"_id":"78"}}
+{"acronym":"ANDEM", "definition":"Agence nationale pour le développement de l’évaluation médicale"}
+{"index":{"_id":"79"}}
+{"acronym":"ANDML", "definition":"Association nationale des directeurs des missions locales"}
+{"index":{"_id":"80"}}
+{"acronym":"ANDRA", "definition":"Agence nationale pour la gestion des déchets radioactifs"}
+{"index":{"_id":"81"}}
+{"acronym":"ANEL", "definition":"Association nationale des élus du littoral"}
+{"index":{"_id":"82"}}
+{"acronym":"ANIL", "definition":"Association nationale pour l’information pour le logement"}
+{"index":{"_id":"83"}}
+{"acronym":"ANLCI", "definition":"Agence nationale de lutte contre l'illettrisme"}
+{"index":{"_id":"84"}}
+{"acronym":"ANPEEC", "definition":"Agence nationale pour la participation des employeurs à l'effort de construction"}
+{"index":{"_id":"85"}}
+{"acronym":"ANRS", "definition":"Agence nationale de recherches sur le sida"}
+{"index":{"_id":"86"}}
+{"acronym":"ANSA", "definition":"Association nationale des sauveteurs ambulanciers"}
+{"index":{"_id":"87"}}
+{"acronym":"ANT", "definition":"Agence nationale pour l’insertion et la promotion des travailleurs d’outre-mer"}
+{"index":{"_id":"88"}}
+{"acronym":"ANTEPS", "definition":"Association nationale tsigane d’enseignement et de pédagogie scolaire"}
+{"index":{"_id":"89"}}
+{"acronym":"ANVAR", "definition":"Agence nationale pour la valorisation de la recherche"}
+{"index":{"_id":"90"}}
+{"acronym":"AOCD", "definition":"Association ouvrière des compagnons du devoir"}
+{"index":{"_id":"91"}}
+{"acronym":"APA", "definition":"Allocation personnalisée d’autonomie"}
+{"index":{"_id":"92"}}
+{"acronym":"APAJH", "definition":"Association pour adultes et jeunes handicapés"}
+{"index":{"_id":"93"}}
+{"acronym":"APARMS", "definition":"Association des permanenciers auxiliaires de régulation médicale des SAMU"}
+{"index":{"_id":"94"}}
+{"acronym":"APD", "definition":"Aide publique au développement"}
+{"index":{"_id":"95"}}
+{"acronym":"APEC", "definition":"Association pour l’emploi des cadres"}
+{"index":{"_id":"96"}}
+{"acronym":"APECITA", "definition":"Association pour l’emploi des cadres, ingénieurs et techniciens de l’agriculture de l’agro-alimentaire"}
+{"index":{"_id":"97"}}
+{"acronym":"APF", "definition":"Association des paralysés de France"}
+{"index":{"_id":"98"}}
+{"acronym":"AP", "definition":"HP Assistance publique - Hôpitaux de Paris"}
+{"index":{"_id":"99"}}
+{"acronym":"API", "definition":"Allocation de parent isolé"}
+{"index":{"_id":"100"}}
+{"acronym":"APL", "definition":"Aide personnalisée au logement"}
+{"index":{"_id":"101"}}
+{"acronym":"APPA", "definition":"Association pour la prévention de la pollution  atmosphérique"}
+{"index":{"_id":"102"}}
+{"acronym":"APPAVE", "definition":"Association parisienne de propriétaires d’appareils à vapeur et électriques"}
+{"index":{"_id":"103"}}
+{"acronym":"APR", "definition":"Allocation de préparation à la retraite"}
+{"index":{"_id":"104"}}
+{"acronym":"APR", "definition":"Aide publique à la réinsertion"}
+{"index":{"_id":"105"}}
+{"acronym":"APRF", "definition":"Arrêté préfectoral de reconduite à la frontière"}
+{"index":{"_id":"106"}}
+{"acronym":"APS", "definition":"Autorisation provisoire de séjour"}
+{"index":{"_id":"107"}}
+{"acronym":"APSI", "definition":"Allergènes préparés spécialement pour un individu (DGS-DPhM)"}
+{"index":{"_id":"108"}}
+{"acronym":"APSI", "definition":"Association de prévention, soins et insertion"}
+{"index":{"_id":"109"}}
+{"acronym":"APT", "definition":"Autorisation provisoire de travail"}
+{"index":{"_id":"110"}}
+{"acronym":"APTM", "definition":"Centre d’accueil et de pré-orientation pour les travailleurs migrants"}
+{"index":{"_id":"111"}}
+{"acronym":"APURE", "definition":"Association pour les universités rurales européennes"}
+{"index":{"_id":"112"}}
+{"acronym":"ARACT", "definition":"Agence régionale pour l’amélioration des conditions de travail"}
+{"index":{"_id":"113"}}
+{"acronym":"ARE", "definition":"Atelier de recherche d’emploi"}
+{"index":{"_id":"114"}}
+{"acronym":"ARE", "definition":"Aide au retour à l’emploi"}
+{"index":{"_id":"115"}}
+{"acronym":"AREPA", "definition":"Association de recherches économiques pures et appliquées "}
+{"index":{"_id":"116"}}
+{"acronym":"AREPA", "definition":"Association des résidences pour personnes âgées"}
+{"index":{"_id":"117"}}
+{"acronym":"ARH", "definition":"Agence régionale de l’hospitalisation"}
+{"index":{"_id":"118"}}
+{"acronym":"ARIA", "definition":"Accueil en réseau pour l’insertion et l’accompagnement"}
+{"index":{"_id":"119"}}
+{"acronym":"ARIS", "definition":"Association de recherche et d’information sociales"}
+{"index":{"_id":"120"}}
+{"acronym":"ARRCO", "definition":"Association des régimes de retraite complémentaire des salariés non cadres"}
+{"index":{"_id":"121"}}
+{"acronym":"ARS", "definition":"Agence régionale de santé"}
+{"index":{"_id":"122"}}
+{"acronym":"ARTAC", "definition":"Association pour la recherche thérapeutique anti cancer"}
+{"index":{"_id":"123"}}
+{"acronym":"ASE", "definition":"Aide sociale à l’enfance"}
+{"index":{"_id":"124"}}
+{"acronym":"ASEPSI", "definition":"Association pour l’étude et la promotion des structures intermédiaires"}
+{"index":{"_id":"125"}}
+{"acronym":"ASET", "definition":"Association d’aide à la scolarisation des enfants tsiganes"}
+{"index":{"_id":"126"}}
+{"acronym":"ASF", "definition":"Allocation de soutien familial"}
+{"index":{"_id":"127"}}
+{"acronym":"ASF", "definition":"Association pour la gestion de la structure financière"}
+{"index":{"_id":"128"}}
+{"acronym":"ASI", "definition":"Accompagnement social individualisé"}
+{"index":{"_id":"129"}}
+{"acronym":"ASIP", "definition":"Agence pour les systèmes d’information de santé partagés"}
+{"index":{"_id":"130"}}
+{"acronym":"ASNITE", "definition":"Association sociale nationale internationale tsigane évangélique"}
+{"index":{"_id":"131"}}
+{"acronym":"ASP", "definition":"Accompagnement socio - professionnel"}
+{"index":{"_id":"132"}}
+{"acronym":"ASS", "definition":"Allocation de solidarité spécifique"}
+{"index":{"_id":"133"}}
+{"acronym":"ASSEDIC", "definition":"Association pour l’emploi dans le commerce et l’industrie"}
+{"index":{"_id":"134"}}
+{"acronym":"ASSFAM", "definition":"Association de service social familial aux migrants"}
+{"index":{"_id":"135"}}
+{"acronym":"ASSOTRAF", "definition":"Association pour l’aide sociale aux travailleurs africains"}
+{"index":{"_id":"136"}}
+{"acronym":"ASTR", "definition":"Association de secours aux traumatisés de la route "}
+{"index":{"_id":"137"}}
+{"acronym":"ASV", "definition":"Avantage social vieillesse"}
+{"index":{"_id":"138"}}
+{"acronym":"AT", "definition":"Accident du travail"}
+{"index":{"_id":"139"}}
+{"acronym":"AT", "definition":"Autorisation de travail"}
+{"index":{"_id":"140"}}
+{"acronym":"ATICA", "definition":"Agence pour les technologies de l’information et de la communication dans l’administration"}
+{"index":{"_id":"141"}}
+{"acronym":"ATIH", "definition":"Agence technique de l’information sur l’hospitalisation"}
+{"index":{"_id":"142"}}
+{"acronym":"ATL", "definition":"Aide transitoire au logement"}
+{"index":{"_id":"143"}}
+{"acronym":"AUDA", "definition":"Dispositif d'accueil d'urgence des demandeurs d'asile"}
+{"index":{"_id":"144"}}
+{"acronym":"AUNIS", "definition":"Association des utilisateurs des nomenclatures nationales et internationales dans le domaine de la santé "}
+{"index":{"_id":"145"}}
+{"acronym":"AUSPAN", "definition":"Association des usagers du service public des archives nationales"}
+{"index":{"_id":"146"}}
+{"acronym":"AVA", "definition":"Assurance vieillesse des artisans"}
+
+
+
+{"index":{"_id":"147"}}
+{"acronym":"BA", "definition":"Bureau d’accueil"}
+{"index":{"_id":"148"}}
+{"acronym":"BAE", "definition":"Bourse d’accès à l’emploi"}
+{"index":{"_id":"149"}}
+{"acronym":"BAS", "definition":"Bureau d’aide sociale"}
+{"index":{"_id":"150"}}
+{"acronym":"BD", "definition":"Bureau départemental"}
+{"index":{"_id":"151"}}
+{"acronym":"BEJI", "definition":"Bureau d’entraide judiciaire internationale (ministère de la justice)"}
+{"index":{"_id":"152"}}
+{"acronym":"BEP", "definition":"Brevet d’enseignement professionnel"}
+{"index":{"_id":"153"}}
+{"acronym":"BPA", "definition":"Brevet d’enseignement agricole"}
+{"index":{"_id":"154"}}
+{"acronym":"BR", "definition":"Bureau régional"}
+{"index":{"_id":"155"}}
+{"acronym":"BRGM", "definition":"Bureau de recherches géologiques et minières"}
+
+
+
+
+
+
+{"index":{"_id":"156"}}
+{"acronym":"CADA", "definition":"Commission d’accès aux documents administratifs"}
+{"index":{"_id":"157"}}
+{"acronym":"CADA", "definition":"Centre d’accueil pour les demandeurs d’asile"}
+{"index":{"_id":"158"}}
+{"acronym":"CADES", "definition":"Caisse d’amortissement de la dette sociale"}
+{"index":{"_id":"159"}}
+{"acronym":"CAE", "definition":"Conseil d’analyse économique"}
+{"index":{"_id":"160"}}
+{"acronym":"CAES", "definition":"Centre d'application et d'études de sémiologie graphique"}
+{"index":{"_id":"161"}}
 {"acronym":"CAFAS", "definition":"Certificat d’aptitude aux fonctions d’aide-soignant(e)"}
+{"index":{"_id":"162"}}
+{"acronym":"CAFDA", "definition":"Coordination pour l’accueil des familles demandeuses d’asile"}
+{"index":{"_id":"163"}}
+{"acronym":"CAI", "definition":"Contrat d’aide à l’insertion"}
+{"index":{"_id":"164"}}
+{"acronym":"CAIR", "definition":"Comité d’aide exceptionnel aux intellectuels réfugiés"}
+{"index":{"_id":"165"}}
+{"acronym":"CAMR", "definition":"Caisse autonome mutuelle de retraite (agents des compagnies de chemin de fer secondaire)."}
+{"index":{"_id":"166"}}
+{"acronym":"CANAM", "definition":"caisse nationale d'assurance maladie des professions indépendantes"}
+
+
+
+{"index":{"_id":"167"}}
+{"acronym":"CANCAVA", "definition":"caisse autonome nationale de compensation de l'assurance vieillesse artisanale"}
+{"index":{"_id":"168"}}
+{"acronym":"CANSSM", "definition":"caisse autonome nationale de sécurité sociale dans les mines"}
+{"index":{"_id":"169"}}
+{"acronym":"CARIF", "definition":"centre d’animation et de ressources en Ile-de-France"}
+{"index":{"_id":"170"}}
+{"acronym":"CARMF", "definition":"caisse autonome de retraite des médecins de France"}
+{"index":{"_id":"171"}}
+{"acronym":"CAP", "definition":"certificat d’aptitude professionnelle"}
+{"index":{"_id":"172"}}
+{"acronym":"CAP", "definition":"centre anti-poison"}
+{"index":{"_id":"173"}}
+{"acronym":"CAP", "definition":"carrefour d’actions de progrès (DIIJ)"}
+{"index":{"_id":"174"}}
+{"acronym":"CAPA", "definition":"certificat d’aptitude professionnelle agricole"}
+{"index":{"_id":"175"}}
+{"acronym":"CAPEA", "definition":"centre des archives de la protection de l’enfance"}
+{"index":{"_id":"176"}}
+{"acronym":"CAPEB", "definition":"confédération des artisans et des petites entreprises du bâtiment"}
+{"index":{"_id":"177"}}
+{"acronym":"CAPS", "definition":"centre d’action et de prévention pour la sécurité (DIV)"}
+{"index":{"_id":"178"}}
+{"acronym":"CAPSSA", "definition":"caisse de prévoyance des agents de sécurité sociale et assimilés"}
+{"index":{"_id":"179"}}
+{"acronym":"CARBOF", "definition":"caisse de retraite et de prévoyance de la boucherie (DSS)"}
+{"index":{"_id":"180"}}
+{"acronym":"CARCEPT", "definition":"Caisse autonome de retraites complémentaires et de prévoyance du transport"}
+{"index":{"_id":"181"}}
+{"acronym":"CASH", "definition":"centre d’accueil et de soins hospitaliers"}
+{"index":{"_id":"182"}}
+{"acronym":"CASU", "definition":"commission de l’action sociale d’urgence"}
+{"index":{"_id":"183"}}
+{"acronym":"CASUL", "definition":"commission de l’action sociale d’urgence locale"}
+{"index":{"_id":"184"}}
+{"acronym":"CCAH", "definition":"Comité national de coordination de l’action en faveur des personnes handicapées "}
+{"index":{"_id":"185"}}
+{"acronym":"CCAS", "definition":"commission centrale d’aide sociale"}
+{"index":{"_id":"186"}}
+{"acronym":"CCAS", "definition":"centre communal d’action sociale"}
+{"index":{"_id":"187"}}
+{"acronym":"CCMIE", "definition":"comité catholique pour les migrations intra européennes (SSAE)"}
+{"index":{"_id":"188"}}
+{"acronym":"CCPD", "definition":"conseil communal de prévention de la délinquance (DIV)"}
+{"index":{"_id":"189"}}
+{"acronym":"CCRP", "definition":"comité de coordination des programmes régionaux d’apprentissage et de formation professionnelle continue."}
+{"index":{"_id":"190"}}
+{"acronym":"CCTS", "definition":"commission consultative de la transfusion sanguine "}
+{"index":{"_id":"191"}}
+{"acronym":"CDAO", "definition":"centre départemental d’accueil et d’orientation"}
+{"index":{"_id":"192"}}
+{"acronym":"CDIAE", "definition":"conseil départemental de l’insertion par l’activité économique"}
+{"index":{"_id":"193"}}
+{"acronym":"CEC", "definition":"contrat emploi consolidé"}
+{"index":{"_id":"194"}}
+{"acronym":"CEDIAS", "definition":"Centre d’études de documentation, d’information et d’action sociale."}
+{"index":{"_id":"195"}}
+{"acronym":"CEE", "definition":"communauté économique européenne"}
+{"index":{"_id":"196"}}
+{"acronym":"CEDIM", "definition":"centre d’étude et de documentation sur l’immigration (SSAE) "}
+{"index":{"_id":"197"}}
+{"acronym":"CEDRI", "definition":"comité européen pour la défense des réfugiés et immigrés (SSAE)"}
+{"index":{"_id":"198"}}
+{"acronym":"CEF", "definition":"	coordonnateur emploi formation "}
+{"index":{"_id":"199"}}
+{"acronym":"CERTI", "definition":"centre régional de traitement informatique "}
+{"index":{"_id":"200"}}
+{"acronym":"CEPES", "definition":"comité d’étude pour le programme européen de la santé."}
+{"index":{"_id":"201"}}
+{"acronym":"CES", "definition":"	contrat emploi solidarité"}
+{"index":{"_id":"202"}}
+{"acronym":"CESC", "definition":"	comité d’éducation à la santé et à la citoyenneté"}
+{"index":{"_id":"203"}}
+{"acronym":"CETEL", "definition":"centres de traitement informatique (CNAMTS)"}
+{"index":{"_id":"204"}}
+{"acronym":"CETELIC", "definition":"centres de traitement informatique inter-caisses (CNAMTS)"}
+{"index":{"_id":"205"}}
+{"acronym":"CGAF", "definition":"	Confédération générale des ambulanciers de France (DGS)"}
+{"index":{"_id":"206"}}
+{"acronym":"CFAS", "definition":"	Code de la famille et de l’aide sociale"}
+{"index":{"_id":"207"}}
+{"acronym":"CFDA", "definition":"	coordination française du droit d’asile"}
+{"index":{"_id":"208"}}
+{"acronym":"CFES", "definition":"	Comité français d'éducation pour la santé "}
+{"index":{"_id":"209"}}
+{"acronym":"CFI", "definition":"	crédit formation individualisé."}
+{"index":{"_id":"210"}}
+{"acronym":"CGM", "definition":"	commission gestion des moyens (ACOSS)"}
+{"index":{"_id":"211"}}
+{"acronym":"CGP", "definition":"	Commissariat général du Plan."}
+{"index":{"_id":"212"}}
+{"acronym":"CGPME", "definition":"Confédération générale des petites et moyennes entreprises"}
+{"index":{"_id":"213"}}
+{"acronym":"CHAPSA", "definition":"centre d’hébergement et d’assistance aux personnes sans abri"}
+{"index":{"_id":"214"}}
+{"acronym":"CHRS", "definition":"	centre d’hébergement et de réinsertion sociale"}
+{"index":{"_id":"215"}}
+{"acronym":"CHRU", "definition":"	Centre hospitalier régional universitaire"}
+{"index":{"_id":"216"}}
+{"acronym":"CIA", "definition":"	conseil international des archives"}
+{"index":{"_id":"217"}}
+{"acronym":"CICR", "definition":"	comité international de la Croix Rouge"}
+{"index":{"_id":"218"}}
+{"acronym":"CICRED", "definition":"comité international de coordination des recherches nationales de démographie"}
+{"index":{"_id":"219"}}
+{"acronym":"CHSCT", "definition":"comité d’hygiène, de sécurité et des conditions de travail"}
+{"index":{"_id":"220"}}
+{"acronym":"CIDJ", "definition":"	centre d’information et de documentation jeunesse."}
+{"index":{"_id":"221"}}
+{"acronym":"CIEDIL", "definition":"Centre interrégional pour l’emploi et le développement des initiatives locales dans la Loire."}
+{"index":{"_id":"222"}}
+{"acronym":"CIEM", "definition":"Collectif inter associatif enfance et médias"}
+{"index":{"_id":"223"}}
+{"acronym":"CIL", "definition":"	contrat d’initiative locale"}
+{"index":{"_id":"224"}}
+{"acronym":"CILE", "definition":"	comité interministériel de lutte contre l’exclusion. (DIIJ)"}
+{"index":{"_id":"225"}}
+{"acronym":"CIMADE", "definition":"service œcuménique d’entraide"}
+{"index":{"_id":"226"}}
+{"acronym":"CIME", "definition":"	comité interministériel de l’évaluation des politiques publiques. (DIIJ)"}
+{"index":{"_id":"227"}}
+{"acronym":"CIMERS", "definition":"centre interdisciplinaire d’études et de recherches en sciences sociales"}
+{"index":{"_id":"228"}}
+{"acronym":"CIPC", "definition":"	Centre international de prévention de la criminalité "}
+{"index":{"_id":"229"}}
+{"acronym":"CIRCD", "definition":"caisse interprofessionnelle de retraite des commerçants détaillants de la région parisienne (DSS)"}
+{"index":{"_id":"230"}}
+{"acronym":"CIRM", "definition":"Centre d’information sur la régulation des naissances, la maternité et la vie sexuelle (CFES) "}
+{"index":{"_id":"231"}}
+{"acronym":"CIRSO", "definition":"centre informatique du recouvrement du Sud-Ouest (ACOSS)"}
+{"index":{"_id":"232"}}
+{"acronym":"CIRTIL", "definition":"centre interrégional de traitement de l’information de Lyon (ACOSS)"}
+{"index":{"_id":"233"}}
+{"acronym":"CISIH", "definition":"centre d’information et de soin de l’immunodéficience humaine (DHOS)"}
+{"index":{"_id":"234"}}
+{"acronym":"CLIC", "definition":"centre local d’information et de coordination gérontologique"}
+{"index":{"_id":"235"}}
+{"acronym":"CIV", "definition":"	comité interministériel à la ville (DIV)"}
+{"index":{"_id":"236"}}
+{"acronym":"CNAF", "definition":"caisse nationale d’allocations familiales"}
+{"index":{"_id":"237"}}
+{"acronym":"CNAMTS", "definition":"caisse nationale d’assurance maladie des travailleurs salariés"}
+{"index":{"_id":"238"}}
+{"acronym":"CNAHES", "definition":"conservatoire national des archives et de l’histoire de l’éducation spécialisée"}
+{"index":{"_id":"239"}}
+{"acronym":"CNAOP", "definition":"Conseil national pour l’accès aux origines personnelles"}
+{"index":{"_id":"240"}}
+{"acronym":"CNASEA", "definition":"Centre national pour l’aménagement des structures des exploitations agricoles (DAGEMO)"}
+{"index":{"_id":"241"}}
+{"acronym":"CNCDH", "definition":"Commission nationale consultative des droits de l’Homme "}
+{"index":{"_id":"242"}}
+{"acronym":"CNDSQ", "definition":"commission nationale de développement social des quartiers (DIV)"}
+{"index":{"_id":"243"}}
+{"acronym":"CNE", "definition":"conseil national de l’eau (DGS)"}
+{"index":{"_id":"244"}}
+{"acronym":"CNEI", "definition":"	comité national des entreprises d’insertion"}
+{"index":{"_id":"245"}}
+{"acronym":"CNEPJ", "definition":"conseil national de l’éducation populaire et de la jeunesse (DIIJ)"}
+{"index":{"_id":"246"}}
+{"acronym":"CNETSA", "definition":"Conseil national des entreprises de transport sanitaire agréées (DGS)"}
+{"index":{"_id":"247"}}
+{"acronym":"CNFF", "definition":"Conseil national des femmes françaises "}
+{"index":{"_id":"248"}}
+{"acronym":"CNIEG", "definition":"Caisse nationale des industries électriques et gazières."}
+{"index":{"_id":"249"}}
+{"acronym":"CNIL", "definition":"	commission nationale de l’informatique et des libertés."}
+{"index":{"_id":"250"}}
+{"acronym":"CNIT", "definition":"Centre des nouvelles industries et technologies "}
+{"index":{"_id":"251"}}
+{"acronym":"CNITAAT", "definition":"cour nationale de l’incapacité et de la tarification de l’assurance des accidents du travail"}
+{"index":{"_id":"252"}}
+{"acronym":"CNIPI", "definition":"conseil national des populations immigrées"}
+{"index":{"_id":"253"}}
+{"acronym":"CNLI", "definition":"Commission nationale pour le logement des immigrés"}
+{"index":{"_id":"254"}}
+{"acronym":"CNLRQ", "definition":"comité national de liaison des régies de quartiers (DIIJ)"}
+{"index":{"_id":"255"}}
+{"acronym":"CNOB", "definition":"caisse nationale des ouvriers du bâtiment"}
+{"index":{"_id":"256"}}
+{"acronym":"CNOSF", "definition":"Comité national olympique et sportif français "}
+{"index":{"_id":"257"}}
+{"acronym":"CNOSS", "definition":"comité national d’organisation sanitaire et sociale"}
+{"index":{"_id":"258"}}
+{"acronym":"CNPF", "definition":"conseil national du patronat français"}
+{"index":{"_id":"259"}}
+{"acronym":"CNS", "definition":"	commission nationale spécialisée (DIIJ)"}
+{"index":{"_id":"260"}}
+{"acronym":"CNSA", "definition":"	caisse nationale de solidarité pour l’autonomie"}
+{"index":{"_id":"261"}}
+{"acronym":"CNV", "definition":"	Conseil national des villes"}
+{"index":{"_id":"262"}}
+{"acronym":"CRAM", "definition":"	caisses régionales d’assurance maladie"}
+{"index":{"_id":"263"}}
+{"acronym":"CGSS", "definition":"	caisses générales de Sécurité sociale"}
+{"index":{"_id":"264"}}
+{"acronym":"CROSS", "definition":"comité régional d’organisation sanitaire et sociale"}
+{"index":{"_id":"265"}}
+{"acronym":"CODERPA", "definition":"comités départementaux des retraités et des personnes âgées "}
+{"index":{"_id":"266"}}
+{"acronym":"COFHUAT", "definition":"Confédération française pour l’habitation, l’urbanisme et l’aménagement du territoire "}
+{"index":{"_id":"267"}}
+{"acronym":"COJASOR", "definition":"comité juif d’action sociale et de reconstruction"}
+{"index":{"_id":"268"}}
+{"acronym":"COPAS", "definition":"Conseil en pratique et analyse sociale"}
+{"index":{"_id":"269"}}
+{"acronym":"CUS", "definition":"	Contrat d’union sociale"}
+{"index":{"_id":"270"}}
+{"acronym":"COTOREP", "definition":"Commission technique d’orientation et de reclassement professionnel."}
+{"index":{"_id":"271"}}
+{"acronym":"CNPD", "definition":"	Conseil national de prévention de la délinquance"}
+{"index":{"_id":"272"}}
+{"acronym":"CREAI", "definition":"	Centre Régional pour les Enfants, les Adolescents et les Adultes Inadaptés"}
+{"index":{"_id":"273"}}
+{"acronym":"CRESGE", "definition":"Centre de recherche en économie sociale et de gestion."}
+{"index":{"_id":"274"}}
+{"acronym":"CREDOC", "definition":"Centre de recherche pour l’étude et l’observation des conditions de vie."}
+{"index":{"_id":"275"}}
+{"acronym":"CRIH", "definition":"	Centres régionaux d’informatique hospitalière"}
+{"index":{"_id":"276"}}
+{"acronym":"CRIJ", "definition":"	centre régional information jeunesse (DIIJ)"}
+{"index":{"_id":"277"}}
+{"acronym":"CRHES", "definition":"Centre de recherche en histoire économique et sociale (de l’université de Nantes)"}
+{"index":{"_id":"278"}}
+{"acronym":"CSHPF", "definition":"conseil supérieur d’hygiène publique de France "}
+{"index":{"_id":"279"}}
+{"acronym":"CTNERHI", "definition":"Centre technique national d’études et de recherches sur les handicaps et les inadaptations."}
+{"index":{"_id":"280"}}
+{"acronym":"CEE", "definition":"Centre d’étude et de l’Emploi (DAGEMO)"}
+{"index":{"_id":"281"}}
+{"acronym":"CEE", "definition":"Communauté économique européenne"}
+{"index":{"_id":"282"}}
+{"acronym":"CELAD", "definition":"Comité européen de lutte anti-drogue (MILDT)"}
+{"index":{"_id":"283"}}
+{"acronym":"CERC", "definition":"centre d’étude des revenus et des coûts."}
+{"index":{"_id":"284"}}
+{"acronym":"CIE", "definition":"centre international de l’enfance"}
+{"index":{"_id":"285"}}
+{"acronym":"CIDEF", "definition":"centre international de l’enfance et de la famille"}
+{"index":{"_id":"286"}}
+{"acronym":"CIDE", "definition":"convention internationale des droits de l’enfant"}
+{"index":{"_id":"287"}}
+{"acronym":"COFRADE", "definition":"conseil français des associations pour les droits de l’enfant"}
+{"index":{"_id":"288"}}
+{"acronym":"CNESSS", "definition":"centre national d'études supérieures de Sécurité sociale"}
+{"index":{"_id":"289"}}
+{"acronym":"CNIR", "definition":"centres nationaux informatiques du recouvrement (ACOSS)"}
+{"index":{"_id":"290"}}
+{"acronym":"CNRPA", "definition":"comité national des retraités et personnes âgées"}
+{"index":{"_id":"291"}}
+{"acronym":"CNVA", "definition":"centre national de la vie associative"}
+{"index":{"_id":"292"}}
+{"acronym":"CLEJ", "definition":"centre lorrain de l’enfance et de la jeunesse"}
+{"index":{"_id":"293"}}
+{"acronym":"CAUE", "definition":"conseil d’architecture, d’urbanisme et d’environnement"}
+{"index":{"_id":"294"}}
+{"acronym":"CEREQ", "definition":"centre d’études et de recherches sur les qualifications"}
+{"index":{"_id":"295"}}
+{"acronym":"CEFFIC", "definition":"centre français de formation et d’information des cadres"}
+{"index":{"_id":"296"}}
+{"acronym":"CIBY", "definition":"centre inter institutionnel de bilan de l’Yonne"}
+{"index":{"_id":"297"}}
+{"acronym":"CIEJ", "definition":"	centre d’initiatives pour l’emploi des jeunes"}
+{"index":{"_id":"298"}}
+{"acronym":"CIES", "definition":"centre international des étudiants et stagiaires"}
+{"index":{"_id":"299"}}
+{"acronym":"CEPAC", "definition":"INTER	centre de parrainage et accompagnement continu des créateurs d’ entreprises internationales"}
+{"index":{"_id":"300"}}
+{"acronym":"CRIDA", "definition":"centre de recherche et d’information sur la démocratie et l’autonomie (DGEFP)et(DARES)"}
+{"index":{"_id":"301"}}
+{"acronym":"CUCES", "definition":"centre universitaire de coopération économique et sociale"}
+{"index":{"_id":"302"}}
+{"acronym":"CUCS", "definition":"contrats urbains de cohésion sociale"}
+{"index":{"_id":"303"}}
+{"acronym":"CODAMU", "definition":"Comité départemental de l’aide médicale urgente"}
+{"index":{"_id":"304"}}
+{"acronym":"COFECO", "definition":"compagnie de formation, d’étude et de conseil"}
+{"index":{"_id":"305"}}
+{"acronym":"COG", "definition":"convention d’objectifs et de gestion (ACOSS)"}
+{"index":{"_id":"306"}}
+{"acronym":"COM", "definition":"contrat d’objectifs et de moyens"}
+{"index":{"_id":"307"}}
+{"acronym":"COREF", "definition":"comité régional de formation professionnelle, de la promotion sociale et de l’emploi (DIIJ)"}
+{"index":{"_id":"308"}}
+{"acronym":"CERCI", "definition":"centre d’étude, de recherche et de coopération internationale"}
+{"index":{"_id":"309"}}
+{"acronym":"CNAM", "definition":"	Conservatoire national des arts et métiers"}
+{"index":{"_id":"310"}}
+{"acronym":"CNML", "definition":"	conseil national des missions locales (DIIJ)"}
+{"index":{"_id":"311"}}
+{"acronym":"CNETP", "definition":"caisse nationale des congés payés des Travaux publics."}
+{"index":{"_id":"312"}}
+{"acronym":"CMU", "definition":"	couverture maladie universelle"}
+{"index":{"_id":"313"}}
+{"acronym":"CSL", "definition":"	confédération des syndicats libres (DRT)"}
+{"index":{"_id":"314"}}
+{"acronym":"CSTS", "definition":"	conseil supérieur du travail social (DGAS)"}
+{"index":{"_id":"315"}}
+{"acronym":"CSMF", "definition":"	confédération des syndicats médicaux français"}
+{"index":{"_id":"316"}}
+{"acronym":"CSS", "definition":"	centre de sécurité sociale"}
+{"index":{"_id":"317"}}
+{"acronym":"CREDES", "definition":"centre de recherche, d’étude et de documentation en économie de la santé"}
+{"index":{"_id":"318"}}
+{"acronym":"CROS", "definition":"comité régional d’organisation sanitaire"}
+{"index":{"_id":"319"}}
+{"acronym":"CPA", "definition":"centre de premier accueil"}
+{"index":{"_id":"320"}}
+{"acronym":"CPER", "definition":"contrat de plan état/Régions (DIIJ)"}
+{"index":{"_id":"321"}}
+{"acronym":"CPPOSS", "definition":"Caisse de prévoyance des personnels des organismes sociaux et similaires (ACOSS)"}
+{"index":{"_id":"322"}}
+{"acronym":"CRF", "definition":"Croix-rouge française"}
+{"index":{"_id":"323"}}
+{"acronym":"CRIPI", "definition":"commissions régionales pour l’insertion des populations immigrées"}
+{"index":{"_id":"324"}}
+{"acronym":"CSDA", "definition":"coordination de sauvegarde du droit d’asile"}
+{"index":{"_id":"325"}}
+{"acronym":"CSAPA", "definition":"Centres soins accompagnement prévention addictologie"}
+{"index":{"_id":"326"}}
+{"acronym":"CSTS", "definition":"Conseil supérieur du travail social"}
+{"index":{"_id":"327"}}
+{"acronym":"CVLU", "definition":"commission du versement en lieu unique (ACOSS)"}
+{"index":{"_id":"328"}}
+{"acronym":"CVUH", "definition":"comité de vigilance face aux usages publics de l’histoire"}
+
+
+
+{"index":{"_id":"329"}}
+{"acronym":"DARSI", "definition":"Déchets d’activités de soins à risques infectieux"}
+{"index":{"_id":"330"}}
+{"acronym":"DCSSI", "definition":"Direction centrale de la sécurité des systèmes d'information"}
+{"index":{"_id":"331"}}
+{"acronym":"DGAS", "definition":"Direction générale de l’action sociale (ministère des affaires sociales)"}
+{"index":{"_id":"332"}}
+{"acronym":"DGISES", "definition":"Délégation générale à l’innovation sociale et à l’économie sociale "}
+{"index":{"_id":"333"}}
+{"acronym":"DGME", "definition":"Direction générale de la modernisation de l’état"}
+{"index":{"_id":"334"}}
+{"acronym":"DIM", "definition":"Département d’information médicale (DHOS)"}
+{"index":{"_id":"335"}}
+{"acronym":"DIIJ", "definition":"Délégation interministérielle à l’insertion des jeunes"}
+{"index":{"_id":"336"}}
+{"acronym":"DIRMI", "definition":"Délégation interministérielle au revenu minimum d’insertion "}
+{"index":{"_id":"337"}}
+{"acronym":"DIV", "definition":"Délégation interministérielle à la ville "}
+{"index":{"_id":"338"}}
+{"acronym":"DE", "definition":"Délégation à l’emploi"}
+{"index":{"_id":"339"}}
+{"acronym":"DEP", "definition":"Direction des études et de la prospective (ACOSS)"}
+{"index":{"_id":"340"}}
+{"acronym":"DFP", "definition":"Délégation à la formation professionnelle"}
+{"index":{"_id":"341"}}
+{"acronym":"DNO", "definition":"Directive nationale d’orientation"}
+{"index":{"_id":"342"}}
+{"acronym":"DPM", "definition":"Direction de la population et des migrations (ministère des affaires sociales)"}
+{"index":{"_id":"343"}}
+{"acronym":"DRJSCS", "definition":"direction régionale de la jeunesse, des sports, et de la cohésion sociale"}
+{"index":{"_id":"344"}}
+{"acronym":"DRG", "definition":"Diagnosis related groups. (DHOS)"}
+{"index":{"_id":"345"}}
+{"acronym":"DROM", "definition":"COM : Département Région d’outre-mer et Collectivité d’outre-mer."}
+{"index":{"_id":"346"}}
+{"acronym":"DSQ", "definition":"Développement social des quartiers"}
+{"index":{"_id":"347"}}
+{"acronym":"DSS", "definition":"Direction de la sécurité sociale (ministère des affaires sociales)"}
+{"index":{"_id":"348"}}
+{"acronym":"DSU", "definition":"Développement social urbain (DIV)"}
+{"index":{"_id":"349"}}
+{"acronym":"DUA", "definition":"durée d’utilisation administrative (archivistique)"}
+{"index":{"_id":"350"}}
+{"acronym":"DUE", "definition":"Déclaration unique d’embauche (ACOSS)"}
+
+
+
+
+{"index":{"_id":"351"}}
+{"acronym":"EAS", "definition":"Etat authentique de services"}
+{"index":{"_id":"352"}}
+{"acronym":"ECPAT", "definition":"End child prostitution in asian tourism"}
+{"index":{"_id":"353"}}
+{"acronym":"ENS", "definition":"Ecole normale supérieure "}
+{"index":{"_id":"354"}}
+{"acronym":"ERET", "definition":"échelons régionaux de l’emploi et du travail (DARES)"}
+{"index":{"_id":"355"}}
+{"acronym":"EUF", "definition":"entraide universitaire française"}
+{"index":{"_id":"356"}}
+{"acronym":"EVEO", "definition":"échanges et valeurs Est-Ouest"}
+
+
+
+
+
+
+{"index":{"_id":"357"}}
+{"acronym":"FAR", "definition":"fonds d’assistance aux réfugiés"}
+{"index":{"_id":"358"}}
+{"acronym":"FARIF", "definition":"Fonds d’aménagement de la région Ile-de-France "}
+{"index":{"_id":"359"}}
+{"acronym":"FAS", "definition":"Fonds d’action sociale"}
+{"index":{"_id":"360"}}
+{"acronym":"FASILD", "definition":"Fonds d’action sociale pour l’intégration et la lutte contre les discriminations "}
+{"index":{"_id":"361"}}
+{"acronym":"FDT", "definition":"foyer à double tarification"}
+{"index":{"_id":"362"}}
+{"acronym":"FEHAP", "definition":"fédération des établissements hospitaliers et d’assistance privés à but non lucratif"}
+{"index":{"_id":"363"}}
+{"acronym":"FEN", "definition":"Fédération de l’éducation nationale "}
+{"index":{"_id":"364"}}
+{"acronym":"FER", "definition":"programme européen d’aide aux réfugiés"}
+{"index":{"_id":"365"}}
+{"acronym":"FHF", "definition":"fédération hospitalière de France"}
+{"index":{"_id":"366"}}
+{"acronym":"FFPPS", "definition":"fonds de la formation professionnelle et de la promotion sociale (DAGEMO)"}
+{"index":{"_id":"367"}}
+{"acronym":"FGIE", "definition":"Fonds de garantie pour les structures d’insertion par l’économique (DGAS"}
+{"index":{"_id":"368"}}
+{"acronym":"FIDA", "definition":"Fédération internationale des femmes juristes "}
+{"index":{"_id":"369"}}
+{"acronym":"FILOR", "definition":"fonds pour l’installation locale des réfugiés"}
+{"index":{"_id":"370"}}
+{"acronym":"FSE", "definition":"Fonds social européen"}
+{"index":{"_id":"371"}}
+{"acronym":"FNADEPA", "definition":"fédération nationale des associations de directeurs d’établissements pour personnes âgées"}
+{"index":{"_id":"372"}}
+{"acronym":"FNAPS", "definition":"fédération nationale des associations pour la permanence des soins (DGS)"}
+{"index":{"_id":"373"}}
+{"acronym":"FNASUM", "definition":"fédération nationale de permanence soins et urgences médicale (DGS)"}
+{"index":{"_id":"374"}}
+{"acronym":"FNDVA", "definition":"Fonds national de développement de la vie associative "}
+{"index":{"_id":"375"}}
+{"acronym":"FNE", "definition":"Fonds national pour l’emploi"}
+{"index":{"_id":"376"}}
+{"acronym":"FNCCR", "definition":"fédération nationale des collectivités concédantes et régies (DGS)"}
+{"index":{"_id":"377"}}
+{"acronym":"FNG", "definition":"Fondation nationale de gérontologie"}
+{"index":{"_id":"378"}}
+{"acronym":"FNGA", "definition":"fonds national de gestion administrative (ACOSS)"}
+{"index":{"_id":"379"}}
+{"acronym":"FNEBI", "definition":"Fédération nationale équipement de bureau, bureautique et informatique (DRT)"}
+{"index":{"_id":"380"}}
+{"acronym":"FNEJ", "definition":"Fédération nationale des écoles de jazz (DRT)"}
+{"index":{"_id":"381"}}
+{"acronym":"FNPEIS", "definition":"Fonds national de prévention, d’éducation et d’information sanitaire "}
+{"index":{"_id":"382"}}
+{"acronym":"FIV", "definition":"fonds interministériel d’intervention de la politique de la ville"}
+{"index":{"_id":"383"}}
+{"acronym":"FIV", "definition":"fécondation in vitro "}
+{"index":{"_id":"384"}}
+{"acronym":"FNARS", "definition":"fédération nationale des associations d’accueil et de réadaptation sociale (DGAS)"}
+{"index":{"_id":"385"}}
+{"acronym":"FONDA", "definition":"fondation pour la vie associative (DGAS)."}
+{"index":{"_id":"386"}}
+{"acronym":"FRANCAS", "definition":"Francs et Franches camarades"}
+{"index":{"_id":"387"}}
+{"acronym":"FRAPPE", "definition":"Femmes regroupées pour l'accessibilité aux pouvoirs politique et économique (Montréal) (SeDF)"}
+{"index":{"_id":"388"}}
+{"acronym":"FSU", "definition":"Fonds social urbain (DIV)"}
+{"index":{"_id":"389"}}
+{"acronym":"FCSF", "definition":"fédération des centres sociaux et socio-culturels de France"}
+{"index":{"_id":"390"}}
+{"acronym":"FERCIS", "definition":"fondation d’études et de recherches sociales pour des coopérations internationales et de solidarité dans la sidérurgie et la métallurgie de base."}
+{"index":{"_id":"391"}}
+{"acronym":"FNEGE", "definition":"fondation nationale pour l’enseignement de la gestion des entreprises"}
+{"index":{"_id":"392"}}
+{"acronym":"FFETSA", "definition":"Fédération française des entreprises de transport sanitaire agréées (DGS)"}
+{"index":{"_id":"393"}}
+{"acronym":"FNAA", "definition":"Fédération nationale des artisans ambulanciers non agréés (DGS)"}
+{"index":{"_id":"394"}}
+{"acronym":"FNAF", "definition":"Fédération nationale des ambulanciers de France (DGS)"}
+{"index":{"_id":"395"}}
+{"acronym":"FNAP", "definition":"Fédération nationale des ambulanciers privés (DGS)"}
+{"index":{"_id":"396"}}
+{"acronym":"FNOSS", "definition":"Fédération nationale des organismes de sécurité (UCANSS)"}
+{"index":{"_id":"397"}}
+{"acronym":"FNSDAA", "definition":"Fédération nationale des syndicats départementaux d’ambulanciers agréés(DGS).... 	Fonds des Nations Unies pour la population "}
+{"index":{"_id":"398"}}
+{"acronym":"FTDA", "definition":"association France terre d’asile"}
+{"index":{"_id":"399"}}
+{"acronym":"FTM", "definition":"Foyer de travailleurs migrants"}
+
+
+
+{"index":{"_id":"400"}}
+{"acronym":"GALATEE", "definition":"Association guilde des arts, des lettres et de l’artisanat pour le tourisme et les échanges européens "}
+{"index":{"_id":"401"}}
+{"acronym":"GAPF", "definition":"groupement d’assistance aux polonais de France"}
+{"index":{"_id":"402"}}
+{"acronym":"GARP", "definition":"Groupement des ASSEDIC de la région parisienne"}
+{"index":{"_id":"403"}}
+{"acronym":"GERHNU", "definition":"Groupe d’études et de réflexion des hôpitaux non universitaires."}
+{"index":{"_id":"404"}}
+{"acronym":"GHM", "definition":"Groupe homogène de malades "}
+{"index":{"_id":"405"}}
+{"acronym":"GIHP", "definition":"Groupement pour l’insertion des personnes handicapées physiques "}
+{"index":{"_id":"406"}}
+{"acronym":"GIP", "definition":"Inter	groupement d’intérêt public pour le développement de l’assistance technique et la coopération internationales"}
+{"index":{"_id":"407"}}
+{"acronym":"GMI", "definition":"Groupement des métiers de l’imprimerie"}
+{"index":{"_id":"408"}}
+{"acronym":"GPLE", "definition":"Grand plan de lutte contre l’exclusion"}
+{"index":{"_id":"409"}}
+{"acronym":"GPNIC", "definition":"groupement professionnel national d’informatique"}
+{"index":{"_id":"410"}}
+{"acronym":"GPU", "definition":"Grand projet urbain"}
+{"index":{"_id":"411"}}
+{"acronym":"GRATH", "definition":"groupe de réflexion pour l’accueil temporaire des personnes handicapées"}
+{"index":{"_id":"412"}}
+{"acronym":"GREFOSS", "definition":"Groupe d’étude et de formation sur le sanitaire et le social"}
+{"index":{"_id":"413"}}
+{"acronym":"GRETA", "definition":"groupement d’établissements publics pour la formation des adultes"}
+{"index":{"_id":"414"}}
+{"acronym":"GRTH", "definition":"garantie de ressources aux travailleurs handicapés"}
+
+
+
+
+{"index":{"_id":"415"}}
+{"acronym":"HAS", "definition":"Haute autorité de santé"}
+{"index":{"_id":"416"}}
+{"acronym":"HCR", "definition":"Haut commissariat des Nations Unies pour les réfugiés "}
+{"index":{"_id":"417"}}
+{"acronym":"HLM", "definition":"Habitations à loyer modéré "}
+{"index":{"_id":"418"}}
+{"acronym":"HRM", "definition":"Human ressource management"}
+
+
+
+
+{"index":{"_id":"419"}}
+{"acronym":"ICOM", "definition":"International council of museums (Conseil international des musées)(Maison de l'Unesco)"}
+{"index":{"_id":"420"}}
+{"acronym":"ICOSI", "definition":"institut de coopération sociale internationale"}
+{"index":{"_id":"421"}}
+{"acronym":"ICR", "definition":"Indice de coût relatif (DHOS)"}
+{"index":{"_id":"422"}}
+{"acronym":"IFA", "definition":"Institut français d’architecture"}
+{"index":{"_id":"423"}}
+{"acronym":"IFN", "definition":"Institut français pour la nutrition (DGS)"}
+{"index":{"_id":"424"}}
+{"acronym":"IHMC", "definition":"Institut d’histoire moderne et contemporaine (CNRS) "}
+{"index":{"_id":"425"}}
+{"acronym":"IME", "definition":"Institut des managers européens"}
+{"index":{"_id":"426"}}
+{"acronym":"IME", "definition":"institut médico-éducatif"}
+{"index":{"_id":"427"}}
+{"acronym":"INED", "definition":"Institut national d’études démographiques "}
+{"index":{"_id":"428"}}
+{"acronym":"INRS", "definition":"Institut national de la recherche scientifique"}
+{"index":{"_id":"429"}}
+{"acronym":"INSERM", "definition":"Institut national de la santé et de la recherche médicale (DGS)"}
+{"index":{"_id":"430"}}
+{"acronym":"INTS", "definition":"institut national de transfusion sanguine"}
+{"index":{"_id":"431"}}
+{"acronym":"IPECA", "definition":"institution de prévoyance des entreprises de construction aéronautique"}
+{"index":{"_id":"432"}}
+{"acronym":"IPROFOP", "definition":"institut pour la promotion par la formation permanente"}
+{"index":{"_id":"433"}}
+{"acronym":"IPSE", "definition":"Institut de la protection sociale européenne"}
+{"index":{"_id":"434"}}
+{"acronym":"IRAP", "definition":"institut de recherche et d’applications pédagogiques"}
+{"index":{"_id":"435"}}
+{"acronym":"IRES", "definition":"institut de recherche économique et sociale"}
+{"index":{"_id":"436"}}
+{"acronym":"IRFAM", "definition":"institut de recherche, formation et d'action sur les migrations"}
+{"index":{"_id":"437"}}
+{"acronym":"IRS", "definition":"innovations et réalisations sociales"}
+{"index":{"_id":"438"}}
+{"acronym":"ISA", "definition":"Indice synthétique d’activité (DHOS)"}
+{"index":{"_id":"439"}}
+{"acronym":"IRO", "definition":"International Refugees organisation (SSAE)"}
+
+{"index":{"_id":"440"}}
+{"acronym":"LSCI", "definition":"Laboratoire de sociologie du changement des institutions (DARES)"}
+
+
+
+
+
+{"index":{"_id":"441"}}
+{"acronym":"MAC", "definition":"ministère des affaires culturelles"}
+{"index":{"_id":"442"}}
+{"acronym":"MCC", "definition":"ministère de la culture et de la communication"}
+{"index":{"_id":"443"}}
+{"acronym":"MCPS", "definition":"mouvement chrétien de la profession sociale"}
+{"index":{"_id":"444"}}
+{"acronym":"MAE", "definition":"ministère des affaires étrangères"}
+{"index":{"_id":"445"}}
+{"acronym":"MAINH", "definition":"mission nationale d’appui à l’investissement hospitalier (DHOS)"}
+{"index":{"_id":"446"}}
+{"acronym":"MAN", "definition":"mission des archives nationales"}
+{"index":{"_id":"447"}}
+{"acronym":"MAN", "definition":"maison de l’administration nouvelle (DDASS Nantes)"}
+{"index":{"_id":"448"}}
+{"acronym":"MAS", "definition":"maison d’accueil spécialisée"}
+{"index":{"_id":"449"}}
+{"acronym":"MAS", "definition":"ministère des affaires sociales"}
+{"index":{"_id":"450"}}
+{"acronym":"MASSV", "definition":"ministère des affaires sociales et de la Ville"}
+{"index":{"_id":"451"}}
+{"acronym":"MEDD", "definition":"ministère de l’écologie et du développement durable"}
+{"index":{"_id":"452"}}
+{"acronym":"MEN", "definition":"ministère de l’éducation nationale"}
+{"index":{"_id":"453"}}
+{"acronym":"MI", "definition":"ministère de l’intérieur"}
+{"index":{"_id":"454"}}
+{"acronym":"MIE", "definition":"mission interministérielle de l’eau (DGS)"}
+{"index":{"_id":"455"}}
+{"acronym":"MRAP", "definition":"mouvement contre le racisme, l’antisémitisme et pour l’amitié entre les peuples"}
+{"index":{"_id":"456"}}
+{"acronym":"MRERS", "definition":"mouvement des réseaux d’échanges réciproques de savoir"}
+{"index":{"_id":"457"}}
+{"acronym":"MICAPCOR", "definition":"mission d’appui et de coordination des services déconcentrés."}
+{"index":{"_id":"458"}}
+{"acronym":"MIRE", "definition":"mission recherche expérimentation"}
+{"index":{"_id":"459"}}
+{"acronym":"MIR", "definition":"mission interministérielle aux rapatriés "}
+{"index":{"_id":"460"}}
+{"acronym":"MILT", "definition":"mission interministérielle de lutte contre la toxicomanie"}
+{"index":{"_id":"461"}}
+{"acronym":"MILDT", "definition":"mission interministérielle de lutte contre la drogue et la toxicomanie"}
+{"index":{"_id":"462"}}
+{"acronym":"MJS", "definition":"ministère de la jeunesse et des sports"}
+{"index":{"_id":"463"}}
+{"acronym":"MSSPS", "definition":"ministère de la solidarité, de la santé et de la protection sociale"}
+{"index":{"_id":"464"}}
+{"acronym":"MT", "definition":"ministère du tourisme"}
+{"index":{"_id":"465"}}
+{"acronym":"MNRA", "definition":"mutuelle nationale de retraite des artisans"}
+{"index":{"_id":"466"}}
+{"acronym":"MSA", "definition":"mutualité sociale agricole"}
+
+
+
+{"index":{"_id":"467"}}
+{"acronym":"NIR", "definition":"numéro d’inscription au répertoire (=n° de sécurité sociale)"}
+{"index":{"_id":"468"}}
+{"acronym":"NBI", "definition":"Nouvelle bonification indiciaire"}
+
+
+
+
+
+{"index":{"_id":"469"}}
+{"acronym":"OAA", "definition":"orphelins apprentis d’Auteuil"}
+{"index":{"_id":"470"}}
+{"acronym":"ODAS", "definition":"observatoire national de l’action sociale décentralisé"}
+
+{"index":{"_id":"471"}}
+{"acronym":"OECE", "definition":"organisation européenne de coopérative économique "}
+{"index":{"_id":"472"}}
+{"acronym":"OFPRA", "definition":"office français de protection des réfugiés et apatrides"}
+{"index":{"_id":"473"}}
+{"acronym":"OIM", "definition":"organisation internationale des migrations"}
+{"index":{"_id":"474"}}
+{"acronym":"OJTI", "definition":"observatoire juridique des technologies de l’information"}
+{"index":{"_id":"475"}}
+{"acronym":"OMI", "definition":"office des migrations internationales"}
+{"index":{"_id":"476"}}
+{"acronym":"OMS", "definition":"Organisation Mondiale de la Santé "}
+{"index":{"_id":"477"}}
+{"acronym":"ONASD", "definition":"observatoire national de l’action sociale décentralisée"}
+{"index":{"_id":"478"}}
+{"acronym":"ONAT", "definition":"office national des affaires tsiganes"}
+{"index":{"_id":"479"}}
+{"acronym":"ONG", "definition":"organisation non gouvernementales"}
+{"index":{"_id":"480"}}
+{"acronym":"ONIAM", "definition":"office national d’indemnisation des accidents médicaux, des affections iatrogènes et des infections nosocomiales."}
+{"index":{"_id":"481"}}
+{"acronym":"ONSER", "definition":"organisme national de sécurité routière"}
+{"index":{"_id":"482"}}
+{"acronym":"ONU", "definition":"organisation des Nations unies"}
+{"index":{"_id":"483"}}
+{"acronym":"OPAC", "definition":"Office public d’aménagement et de construction "}
+{"index":{"_id":"484"}}
+{"acronym":"OPE", "definition":"Opérations Prévention été"}
+{"index":{"_id":"485"}}
+{"acronym":"OPHS", "definition":"Office privé d’hygiène sociale"}
+{"index":{"_id":"486"}}
+{"acronym":"OQN", "definition":"Objectifs quantifiés nationaux"}
+{"index":{"_id":"487"}}
+{"acronym":"OREFQ", "definition":"Observatoire régional de l’emploi, de la formation et des qualifications"}
+{"index":{"_id":"488"}}
+{"acronym":"ORGANIC", "definition":"organisation autonome d’assurance vieillesse des industriels et commerçants "}
+{"index":{"_id":"489"}}
+{"acronym":"ORS", "definition":"observatoire régional de santé"}
+{"index":{"_id":"490"}}
+{"acronym":"ORT", "definition":"organisation reconstruction travail "}
+{"index":{"_id":"491"}}
+{"acronym":"ORTF", "definition":"office de radiodiffusion et télévision française "}
+
+
+
+
+
+
+
+
+{"index":{"_id":"492"}}
+{"acronym":"PAIO", "definition":"permanence d’accueil, d’information et d’orientation."}
+{"index":{"_id":"493"}}
+{"acronym":"PACT", "definition":"programme d’aménagement concerté du territoire"}
+{"index":{"_id":"494"}}
+{"acronym":"PALULOS", "definition":"prime à l’amélioration des logements à usage locatif et occupation sociale"}
+{"index":{"_id":"495"}}
+{"acronym":"PAP", "definition":"programme d’actions prioritaires (DGS)"}
+{"index":{"_id":"496"}}
+{"acronym":"PAQUE", "definition":"préparation active à la qualification et à l’emploi (DGEFP.)"}
+{"index":{"_id":"497"}}
+{"acronym":"PARE", "definition":"plan d’aide de retour à l’emploi."}
+{"index":{"_id":"498"}}
+{"acronym":"PIC", "definition":"programme d’initiatives communautaires."}
+{"index":{"_id":"499"}}
+{"acronym":"PJJ", "definition":"protection judiciaire de la jeunesse."}
+{"index":{"_id":"500"}}
+{"acronym":"PERNNS", "definition":"Pôle d’expertise et de référence nationale des nomenclatures de santé (DHOS)"}
+{"index":{"_id":"501"}}
+{"acronym":"PLI", "definition":"plan local d’insertion (DIV)"}
+{"index":{"_id":"502"}}
+{"acronym":"PLIE", "definition":"plan local d’insertion économique."}
+{"index":{"_id":"503"}}
+{"acronym":"PNAE", "definition":"plan national d’action pour l’emploi"}
+{"index":{"_id":"504"}}
+{"acronym":"PNAI", "definition":"plan national d’action pour l’inclusion sociale"}
+{"index":{"_id":"505"}}
+{"acronym":"PNLE", "definition":"plan national de renforcement de la lutte contre la précarité et l’exclusion Prej		plan régional d’emploi des jeunes."}
+{"index":{"_id":"506"}}
+{"acronym":"PMI", "definition":"protection maternelle et infantile"}
+{"index":{"_id":"507"}}
+{"acronym":"PMSI", "definition":"programme de médicalisation des systèmes d’information. (dans les cliniques privées)-(DHOS)"}
+{"index":{"_id":"508"}}
+{"acronym":"PRN", "definition":"projet de recherche en nursing (DHOS)"}
+{"index":{"_id":"509"}}
+{"acronym":"PMPSI", "definition":"programme de médicalisation des systèmes d’information (DHOS)"}
+{"index":{"_id":"510"}}
+{"acronym":"POM", "definition":"Pays d’outre-mer (l’appellation donnée au statut de la Polynésie française par l’article 511er de la loi organique du 27 février 2004)"}
+{"index":{"_id":"512"}}
+{"acronym":"PSD", "definition":"prestation spécifique dépendance"}
+
+
+
+{"index":{"_id":"513"}}
+{"acronym":"RAMFIS", "definition":"ressortissants algériens menacés par le front islamique du salut (FIS).(DPM)"}
+{"index":{"_id":"514"}}
+{"acronym":"REAAP", "definition":"réseaux d’écoute, d’appui et d’accompagnement des parents"}
+{"index":{"_id":"515"}}
+{"acronym":"RESO", "definition":"réseau d’accès aux soins pour personnes en situation de précarité"}
+{"index":{"_id":"516"}}
+{"acronym":"RCB", "definition":"Rationalisation des choix budgétaires (DHOS)"}
+{"index":{"_id":"517"}}
+{"acronym":"RMI", "definition":"revenu minimum d’insertion"}
+{"index":{"_id":"518"}}
+{"acronym":"RSI", "definition":"régime social des indépendants"}
+{"index":{"_id":"519"}}
+{"acronym":"RPC", "definition":"recommandations pour la pratique clinique"}
+
+
+{"index":{"_id":"520"}}
+{"acronym":"SAT", "definition":"service d’accueil temporaire"}
+{"index":{"_id":"521"}}
+{"acronym":"SDSIR", "definition":"schéma directeur des systèmes d’information du recouvrement (ACOSS)"}
+{"index":{"_id":"522"}}
+{"acronym":"SEAD", "definition":"service d’évaluation et d’accompagnement à domicile"}
+{"index":{"_id":"523"}}
+{"acronym":"SFHH", "definition":"société française d’histoire des Hôpitaux"}
+{"index":{"_id":"524"}}
+{"acronym":"SGG", "definition":"secrétariat général du Gouvernement"}
+{"index":{"_id":"525"}}
+{"acronym":"SGCI", "definition":"secrétariat général du comité interministériel pour les questions de 			coopération économique européenne (DGS)"}
+{"index":{"_id":"526"}}
+{"acronym":"SSAE", "definition":"service social d'aide aux émigrants"}
+{"index":{"_id":"527"}}
+{"acronym":"SSI", "definition":"service social international"}
+{"index":{"_id":"528"}}
+{"acronym":"SSIAD", "definition":"service de soins infirmiers à domicile"}
+{"index":{"_id":"529"}}
+{"acronym":"SEM", "definition":"société d’exploitation des mini-labos photographiques"}
+{"index":{"_id":"530"}}
+{"acronym":"SEM", "definition":"sociétés d’économie mixte "}
+{"index":{"_id":"531"}}
+{"acronym":"SEFPAR", "definition":"secrétariat d’état à la Famille, aux Personnes âgées et aux Rapatriés"}
+{"index":{"_id":"532"}}
+{"acronym":"SES", "definition":"service des études et de la statistique"}
+{"index":{"_id":"533"}}
+{"acronym":"SETE", "definition":"Services extérieurs du travail et de l'emploi"}
+{"index":{"_id":"534"}}
+{"acronym":"SIAF", "definition":"Service interministériel des Archives de France"}
+{"index":{"_id":"535"}}
+{"acronym":"SICLER", "definition":"secrétariat d’information des collectivités locales et régionales "}
+{"index":{"_id":"536"}}
+{"acronym":"SID", "definition":"service d’information et de diffusion du Premier ministre"}
+{"index":{"_id":"537"}}
+{"acronym":"SIDA", "definition":"syndrome d’immunodéficience déficitaire acquis"}
+{"index":{"_id":"538"}}
+{"acronym":"SMR", "definition":"service médical rendu"}
+{"index":{"_id":"539"}}
+{"acronym":"SNAMU", "definition":"service national d’aide médicale urgente (DGS)"}
+{"index":{"_id":"540"}}
+{"acronym":"SNDLL", "definition":"syndicat national des discothèques et lieux de loisirs (DRT)"}
+{"index":{"_id":"541"}}
+{"acronym":"SNFMI", "definition":"Société nationale française de médecine interne (DGS"}
+{"index":{"_id":"542"}}
+{"acronym":"SNIP", "definition":"Syndicat national de l’industrie pharmaceutique "}
+{"index":{"_id":"543"}}
+{"acronym":"SNMSAC", "definition":"syndicat national des mécaniciens au sol de l’aviation civile (DRT)"}
+{"index":{"_id":"544"}}
+{"acronym":"SNP", "definition":"système national de production (application informatique interne-ACOSS)"}
+{"index":{"_id":"545"}}
+{"acronym":"SNPMI", "definition":"syndicat national du patronat moderne et indépendant (DRT)"}
+{"index":{"_id":"546"}}
+{"acronym":"SNRVM", "definition":"syndicat national des représentants des visiteurs médicaux (DRT)"}
+{"index":{"_id":"547"}}
+{"acronym":"SONACOTRA", "definition":"Société nationale de construction de logements pour les travailleurs immigrés."}
+{"index":{"_id":"548"}}
+{"acronym":"SPDE", "definition":"syndicat professionnel des entreprises de services d’eau et d’assainissement (DGS)"}
+{"index":{"_id":"549"}}
+{"acronym":"SPELC", "definition":"syndicat professionnel de l’enseignement libre catholique (DRT)"}
+{"index":{"_id":"550"}}
+{"acronym":"SEITA", "definition":"service d’exploitation industrielle des tabacs et allumettes"}
+{"index":{"_id":"551"}}
+{"acronym":"SESAM", "definition":"système électronique de saisie de l’assurance maladie"}
+{"index":{"_id":"552"}}
+{"acronym":"SIRENE", "definition":"système informatique pour le répertoire des entreprises et établissements"}
+{"index":{"_id":"553"}}
+{"acronym":"SFE", "definition":"service fédéral à l’emploi"}
+{"index":{"_id":"554"}}
+{"acronym":"SSMOE", "definition":"service social de la main-d’œuvre étrangère"}
+{"index":{"_id":"555"}}
+{"acronym":"SERCE", "definition":"syndicat des entreprises de génie électrique (DRT)"}
+{"index":{"_id":"556"}}
+{"acronym":"SRAS", "definition":"syndrome respiratoire aigu sévère"}
+{"index":{"_id":"557"}}
+{"acronym":"SQUALPI", "definition":"Service de l’innovation et de la qualité de la sous-direction de la qualité pour l’industrie et de la normalisation (DGI Ministère Economie et Finances)"}
+
+
+
+
+{"index":{"_id":"558"}}
+{"acronym":"TFA", "definition":"travailleurs sociaux d’adaptation"}
+{"index":{"_id":"559"}}
+{"acronym":"TICO", "definition":"technologie de l’information et de la communication dans les organisations"}
+{"index":{"_id":"560"}}
+{"acronym":"TISF", "definition":"techniciens d’interventions sociale et familiale"}
+
+
+
+{"index":{"_id":"561"}}
+{"acronym":"UCANSS", "definition":"Union nationale des caisses de sécurité sociale"}
+{"index":{"_id":"562"}}
+{"acronym":"UE", "definition":"Union européenne"}
+{"index":{"_id":"563"}}
+{"acronym":"UFJT", "definition":"Union nationale des foyers et services pour jeunes travailleurs "}
+{"index":{"_id":"564"}}
+{"acronym":"UIOF", "definition":"Union internationale des organismes familiaux"}
+{"index":{"_id":"565"}}
+{"acronym":"UIOSS", "definition":"union immobilière des organismes de sécurité sociale (ACOSS)"}
+{"index":{"_id":"566"}}
+{"acronym":"UMCII", "definition":"Union mutuelle des communautés issues de l’immigration"}
+{"index":{"_id":"567"}}
+{"acronym":"UNAFORMEC", "definition":"Union nationale des associations de formation médicale continue "}
+{"index":{"_id":"568"}}
+{"acronym":"UNCCAS", "definition":"Union nationale des centres communaux d’action sociale."}
+{"index":{"_id":"569"}}
+{"acronym":"UNCASF", "definition":"Union nationale des centres d’aide sociale et familiale."}
+{"index":{"_id":"570"}}
+{"acronym":"UNCAF", "definition":"Union nationale des caisses d’allocations familiales"}
+{"index":{"_id":"571"}}
+{"acronym":"UNASSAD", "definition":"union nationale des associations de soins et de services à domicile"}
+{"index":{"_id":"572"}}
+{"acronym":"UNAPEI", "definition":"union nationale des associations de parents et amis de personnes handicapées mentales"}
+{"index":{"_id":"573"}}
+{"acronym":"UNEDIC", "definition":"union nationale pour l’emploi dans l’industrie et le commerce"}
+{"index":{"_id":"574"}}
+{"acronym":"UNESCO", "definition":"organisation des Nations unies pour l’éducation, les sciences et la culture"}
+{"index":{"_id":"575"}}
+{"acronym":"UNGDEU", "definition":"union nationale des gens du voyage de France en Europe unie"}
+{"index":{"_id":"576"}}
+{"acronym":"UNICA", "definition":"union informatique de Caen pour la branche recouvrement (ACOSS)"}
+{"index":{"_id":"577"}}
+{"acronym":"UNISAT", "definition":"union nationale des institutions sociales d’action pour les tsiganes"}
+{"index":{"_id":"578"}}
+{"acronym":"URAVIF", "definition":"union régionale des associations pour les gens du voyage et tsiganes d’Ile de France"}
+{"index":{"_id":"579"}}
+{"acronym":"UNIOPSS", "definition":"Union nationale interfédérale des œuvres et organismes privés sanitaires et sociaux "}
+{"index":{"_id":"580"}}
+{"acronym":"URCA", "definition":"université de Reims Champagne-Ardennes"}
+{"index":{"_id":"581"}}
+{"acronym":"URO", "definition":"United restitution organisation (SSAE)"}
+{"index":{"_id":"582"}}
+{"acronym":"UPMF", "definition":"Université Pierre Mendès-France"}
+{"index":{"_id":"583"}}
+{"acronym":"UNSAP", "definition":"Union syndicale des ambulanciers privés (DGS)"}
+{"index":{"_id":"584"}}
+{"acronym":"UFCVL", "definition":"Union française des centres de vacances et de loisirs (DRT)"}
+{"index":{"_id":"585"}}
+{"acronym":"UNODESC", "definition":"Union nationale des organismes de développement social sportif et culturel (DRT)"}
+{"index":{"_id":"586"}}
+{"acronym":"UNME", "definition":"Union nationale des maisons d’étudiants (DRT)"}
+{"index":{"_id":"587"}}
+{"acronym":"UNECTOUR", "definition":"Union des employés et cadres du tourisme (DRT)"}
+

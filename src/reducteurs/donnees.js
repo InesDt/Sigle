@@ -46,6 +46,7 @@ export function fetch_setRech(sigle_nom){
             },
             sort: [ {acronym: 'asc'}],
             _source: [ 'acronym', 'definition' ],
+            // taille maximale pour les requêtes pour permettre l'affichage de toutes les définitions correspondantes au préffixe dans la requête
             size:10000
            }
           }
