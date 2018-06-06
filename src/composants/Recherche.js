@@ -17,17 +17,15 @@ const Presentation = props =>
                                                             {
                                                               (props.sigle.length==0) &&
                                                               <div className="cell small-12">
-                                                              <div className="grid-x grid-padding-x text-center">
-                                                                <div className="cell auto">
-                                                                </div>
-                                                                <div className="cell small-4">
-                                                                  <h2 className="defanimation"> 
+                                                              
+                                                                
+                                                                
+                                                                  <h2 className="defanimation" style={ {fontSize: '2 em', alignText: 'center' }}> 
                                                                     ArchiSigle
                                                                   </h2>
-                                                                </div>
-                                                                <div className="cell auto">
-                                                                </div>
-                                                              </div>
+                                                                
+                                                                
+                                                              
                                                             </div>
                                                           }
                                 

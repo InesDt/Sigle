@@ -17,6 +17,13 @@ var elasticsearch = require('elasticsearch')
 
 
 //Action creator
+export function setInfosPage(number) {
+	return {
+		type: 'SET_INFOS_PAGE',
+		index: number
+	}
+}
+//Action creator 
 export function setSigles(sigle) {
 	return {
       type: 'SET_SIGLES',
@@ -147,7 +154,8 @@ const donnees = (state =donnees_sigles, action) => {
 	
 		case 'SET_RECH':
 			return update({ liste: action.liste } ,state) 
-
+		case 'SET_INFOS_PAGE':
+			return update({ index: action.index } ,state)
 		default:
 			return state
 	}
@@ -156,3 +164,4 @@ const donnees = (state =donnees_sigles, action) => {
 export default donnees
 
 export const selectListe = state => state.donnees.liste
+export const selectIndex = state => state.donnees.index

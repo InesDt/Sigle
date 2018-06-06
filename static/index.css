@@ -94,11 +94,49 @@ body{
 
 
 table{
-	border:solid transparent;
-	text-align:center;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
 }
-table tbody{
-	background-color:powderblue;
+table tbody td {
+	font-size: 12px;
+}
+table td,th{
+  padding: 6px 2px;
+}
+
+table thead{
+  background-color: #B31E24;
+  background: linear-gradient( to bottom, #c6565b 0%, #ba343a 66%, #B31E24 100%);
+}
+
+table thead th{
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+table tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+table tfoot td {
+  font-size: 14px;
+}
+
+table tfoot .links{
+  text-align: rigth;
+}
+
+table tfoot .links a {
+  display: inline-block;
+  background-color: #B31E24;
+  color:#FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
 }
 /*
 .AjoutDef-enter {

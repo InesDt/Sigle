@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { setSigleRech, selectSigle, selectPage, selectDef, setDefAjout, setVisibilityPage} from '../reducteurs/form'
-import { fetch_setSigle, fetch_setRech } from '../reducteurs/donnees'
+import { fetch_setSigle, fetch_setRech, setInfosPage } from '../reducteurs/donnees'
 import  AjoutBouton from './AjoutBouton'
 import Retour from './Retour'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
@@ -51,6 +51,7 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = (dispatch) => ({
 	onChange: (e) => {
+    dispatch(setInfosPage(0))
     dispatch(setSigleRech(e.toUpperCase()))
     dispatch(fetch_setRech(e.toUpperCase()))
     if(e==''){
