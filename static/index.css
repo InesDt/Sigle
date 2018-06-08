@@ -3,7 +3,6 @@ body{
 	background-repeat: no-repeat;
 	background-position: 100% 0%;
 	background-size: 60%;
-  height:500px;
 }
 
 
@@ -42,7 +41,7 @@ body{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.5em;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
@@ -93,50 +92,42 @@ body{
 }
 
 
-table{
-  width: 100%;
+#table{
   text-align: center;
   border-collapse: collapse;
 }
-table tbody td {
-	font-size: 12px;
-}
-table td,th{
-  padding: 6px 2px;
+#table #body {
+	font-size: 2em;
 }
 
-table thead{
+
+
+#table #thead{
   background-color: #B31E24;
   background: linear-gradient( to bottom, #c6565b 0%, #ba343a 66%, #B31E24 100%);
-}
-
-table thead th{
-  font-size: 15px;
+  font-size: 2.5em;
   font-weight: bold;
   color: #FFFFFF;
   text-align: center;
 }
 
-table tfoot {
-  font-size: 14px;
+#table #footer {
+  font-size: 2em;
   font-weight: bold;
   color: #FFFFFF;
 }
 
-table tfoot td {
-  font-size: 14px;
-}
 
-table tfoot .links{
+#table #footer .links{
   text-align: rigth;
 }
 
-table tfoot .links a {
+#table #footer .links a {
   display: inline-block;
   background-color: #B31E24;
   color:#FFFFFF;
-  padding: 2px 8px;
-  border-radius: 5px;
+  padding: 0.25em 0.5em;
+  border-radius: 0.25em;
 }
 /*
 .AjoutDef-enter {
@@ -163,7 +154,7 @@ table tfoot .links a {
 */
 .Barre{
   background-color: #256500a6;
-  height: 2px;
+  height: 0.5em;
   animation: barre_entree 1s ease-in;
 }
 
@@ -293,3 +284,7 @@ table tfoot .links a {
     to { transform: translateX(0px); }
 }
 
+#style1{ 
+  font-size:6em;
+  text-align:center;
+}

@@ -65,17 +65,25 @@ export function fetch_setRech(sigle_nom){
             res.forEach((p) => hits.push(p._source))
             console.log(hits)
             hits.forEach( function(p,index){  liste_infos.push((
-                                                                              <tr key ={index}>
-                                                                                <td >
-                                                                                  {p.acronym} 
-                                                                                </td>
-                                                                                <td>
-                                                                                  {p.definition}
-                                                                                </td>
-                                                                                <td>
-                                                                                	<BoutonSuppr value={p} />
-                                                                                </td>
-                                                                              </tr>
+                                                                              <div className=" cell small-12"  key={index} >
+																											                          <div  className=" grid-x  grid-padding-x" >
+																											                            <div className="cell  medium-1">
+																											                            	<div id="body">
+																											                                {p.acronym}
+																											                               </div>
+																											                            </div>
+																											                            <div className="cell  medium-10">
+																											                            	<div id="body">
+																											                                {p.definition}
+																											                              </div>
+																											                            </div>
+																											                            <div className="cell medium-1">
+																											                            	<div id="body">
+																											                            		<BoutonSuppr value={p} />
+																											                            	</div>
+																											                            </div>
+																											                          </div>
+																											                        </div>
                                                                               ))
                                         }.bind(this)
                                                 )
@@ -84,6 +92,7 @@ export function fetch_setRech(sigle_nom){
         )
 	}
 }
+
 
 // 
 export function fetch_setSigle(sigle){

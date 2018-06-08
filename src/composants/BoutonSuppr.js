@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import {fetch_remSigle} from '../reducteurs/donnees'
 import { selectSigle, selectDef } from '../reducteurs/form'
 
-const Presentation = props => ( <button id="suppr_but" onClick={() =>  props.onClick(props.value, props.sigle_rech)} > x__x </button>)
+const Presentation = props => ( <button id="suppr_but" onClick={() =>  props.onClick(props.value, props.sigle_rech)} > - </button>)
 
 const mapStateToProps = state => ({
   sigle_rech: selectSigle(state)

@@ -9,7 +9,7 @@ import { selectSigle, selectPage } from '../reducteurs/form'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 const Presentation = props => 
  {
-    
+      
       return(
         <div className="grid-x grid-padding-x" id="page">
           <div className ="cell small-12">
@@ -20,9 +20,9 @@ const Presentation = props =>
                                                               
                                                                 
                                                                 
-                                                                  <h2 className="defanimation" style={ {fontSize: '2 em', alignText: 'center' }}> 
+                                                                  <div className="defanimation" id="style1"> 
                                                                     ArchiSigle
-                                                                  </h2>
+                                                                  </div>
                                                                 
                                                                 
                                                               

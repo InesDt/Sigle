@@ -36,36 +36,29 @@ const Presentation = props =>
         return(liste_page)
       }                     
       const affichage = (
-                      <div className="defanimation">
-                        <table >
-                          <thead>
-                            <tr> 
-                              <th> 
-                                  Sigle
-                              </th>
-                              <th>
-                                  Définition
-                              </th>
-                              <th>
-                              </th>
-                            </tr>
-                          </thead>
-                          <tfoot>
-                          <tr>
-                          <td colSpan="3">
-                          <div className="links">
-                          {
-                            indexes_footer(props.footer)
-                          }
+                      <div className="grid-x grid-padding-x" id="table">
+                        <div className=" cell small-12" >
+                          <div  className=" grid-x  grid-padding-x">
+                            <div className="cell small-3 medium-1" id="thead">
+                                Sigle
+                            </div>
+                            <div className="cell small-6 medium-10" id="thead">
+                                Définition
+                            </div>
+                            <div className="cell small-6 medium-1" id="thead">
+                            </div>
                           </div>
-                          </td>
-                          </tr>
-                          </tfoot>
-                          <tbody>
-                            {props.liste}
-                          </tbody>
-                        </table>
-                        {(props.liste.length==0) && <p> Aucune donnée correspondante </p>}
+                        </div>
+                        {props.liste}
+                        <div className="cell small-12" id="footer">
+                          <div className="links">
+                            {
+                              indexes_footer(props.footer)
+                            }
+                          </div>
+                        </div>
+                        {(props.liste.length==0) && <div className="cell small-12"><p> Aucune donnée correspondante </p></div>}
+                        
                       </div>
                     )
       
