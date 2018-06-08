@@ -45,7 +45,7 @@ const Presentation = props =>
                             <div className="cell small-6 medium-10" id="thead">
                                 Définition
                             </div>
-                            <div className="cell small-6 medium-1" id="thead">
+                            <div className="cell small-3 medium-1" id="thead">
                             </div>
                           </div>
                         </div>

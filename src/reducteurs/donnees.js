@@ -67,17 +67,17 @@ export function fetch_setRech(sigle_nom){
             hits.forEach( function(p,index){  liste_infos.push((
                                                                               <div className=" cell small-12"  key={index} >
 																											                          <div  className=" grid-x  grid-padding-x" >
-																											                            <div className="cell  medium-1">
+																											                            <div className="cell small-3 ">
 																											                            	<div id="body">
 																											                                {p.acronym}
 																											                               </div>
 																											                            </div>
-																											                            <div className="cell  medium-10">
+																											                            <div className="cell small-6 ">
 																											                            	<div id="body">
 																											                                {p.definition}
 																											                              </div>
 																											                            </div>
-																											                            <div className="cell medium-1">
+																											                            <div className="cell small-3 ">
 																											                            	<div id="body">
 																											                            		<BoutonSuppr value={p} />
 																											                            	</div>
